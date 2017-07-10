@@ -1,8 +1,8 @@
 % Select one class
 %\documentclass{pucthesis}		% For DVI
-\documentclass[pdftex]{pucthesis}	% For pdfLaTeX
+%\documentclass[pdftex]{pucthesis}	% For pdfLaTeX
 %\documentclass[spanish]{pucthesis}		% For DVI, in spanish
-%\documentclass[pdftex,spanish]{pucthesis}	% For pdfLaTeX, in spanish
+\documentclass[pdftex,spanish]{pucthesis}	% For pdfLaTeX, in spanish
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %      Nota: si usas español, algunos nombres      %
@@ -22,6 +22,8 @@
 \restylefloat{figure}
 \usepackage{subfigure}
 \usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
 % Math packages
 \usepackage{amsmath}
@@ -41,9 +43,26 @@
 
 % To make cites and references
 \usepackage[hidelinks,pdfusetitle,pdfdisplaydoctitle]{hyperref}
-\usepackage[notocbib]{apacite} 
+\usepackage[notocbib]{apacite}
 \usepackage{doi}
 \renewcommand{\doitext}{}
+
+%For tables with auto size adjust
+\usepackage{ltablex}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+%To write sources in figures
+
+\usepackage{caption}
+\DeclareCaptionFormat{citation}{%
+   \ifx\captioncitation\relax\relax\else
+     \captioncitation\par
+   \fi
+   #1#2#3\par}
+\newcommand*\setcaptioncitation[1]{\def\captioncitation{\textit{Fuente:}~#1}}
+\let\captioncitation\relax
+\captionsetup{format=citation,justification=centering}
+
 
 %--------- NEW ENVIRONMENTS --------- You are free to remove or use it
 \newtheorem{definition}{\bf Definition}[chapter]
@@ -60,9 +79,9 @@
 % En caso de que el título sea muy largo, se puede ajustar el espacio
 % antes y después de este en las dos primeras páginas para que quede centrado.
 
-%\makeatletter
-%  \setlength{\beftitle}{105\p@\@plus24\p@}
-%  \setlength{\afttitle}{65\p@}
+\makeatletter
+  \setlength{\beftitle}{75\p@\@plus24\p@}
+  \setlength{\afttitle}{55\p@}
 %\makeatother
 
 \begin{document}
@@ -71,30 +90,28 @@
 \version{1}                                     % manuscript version #
 
 \title[(LONG THESIS TITLE)]
-   {\bf (LONG THESIS TITLE)}       
-\author[Author's Name]{Author's name}
+   {\bf Laboratorio web para estimar la demanda de cursos en la Escuela de Ingeniería en el primer ciclo formativo}
+\author[Author's Name]{Erwin Andrés Agüero Meza}
 
 \address{Escuela de Ingenier\'ia\\
-                   Pontificia Universidad Cat\'olica de Chile\\ 
+                   Pontificia Universidad Cat\'olica de Chile\\
                    Vicu\~na Mackenna 4860\\
                   Santiago, Chile\\
                   {\it Tel.\/} : 56 (2) 354-2000}
-\email{username@uc.cl}
+\email{enaguero@uc.cl}
 
-\facultyto    {the School of Engineering}
+\facultyto    {Escuela de Ingeniería}
 %\department   {}
-\faculty                             {Faculty of Engineering}
-\degree                  {Master of Science in Engineering}  %   {Mag\'ister en Ciencias de la Ingenier\'ia}  %        
+\faculty                             {Facultad de Ingeniería}
+\degree                  {Ingenierio Civil Industrial, con Diploma en Ingeniería en Computación}  %   {Mag\'ister en Ciencias de la Ingenier\'ia}  %
                                  % or {Doctor in Engineering Sciences}    % {Doctor en Ciencias de la Ingenier\'ia}
-\advisor                            {Professor's name}
-\committeememberA {Member A}
-\guestmemberA            {Member B}
-\ogrsmember                 {Member C}
-\subject                            {Structural Engineering}
-\date                                 {Month Year}
-\copyrightname             {Author's name}
-\copyrightyear               {MMXV}
-\dedication                      {Gratefully to my parents and siblings}
+\advisor                            {Jaime Navón Cohen}
+\committeememberA {Yadran Etorovic Solano}
+\guestmemberA            {Daniel Olivares Quero}
+\ogrsmember                 {}
+\subject                            {Ciencias de la Computación}
+\date                                 {Agosto 2017}
+\dedication                      {A todos aquellos que contribuyeron en mi paso por la universidad :)}
 
 %%%%%%%%%%%%%%%%%%%%
 %       PRELIMINARIES                              %
@@ -123,7 +140,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \phantomsection \label{acknowledgements} % Comment if hyperref is unused
-\chapter*{ACKNOWLEDGEMENTS}           
+\chapter*{AGRADECIMIENTOS}
 \input{./chapters/acknowledgments.tex}
 
 \cleardoublepage
@@ -167,7 +184,7 @@
 
 \pagenumbering{arabic}
 
-\chapter[INTRODUCTION]{Introduction}
+\chapter[Capítulo 01]{Capítulo 01}
 \input{./chapters/introduction.tex}
 
 \chapter[CHAPTER 1]{Chapter 1} \label{ch1}

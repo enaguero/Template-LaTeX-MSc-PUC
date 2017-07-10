@@ -136,7 +136,7 @@
 		\par \addpenalty\@secpenalty\addvspace{#2}%
 		\begingroup \hyphenpenalty\@M
 		\@ifempty{#4}{%
-			\@tempdima\csname r@tocindent\number#1\endcsname\relax % 
+			\@tempdima\csname r@tocindent\number#1\endcsname\relax %
 		}{%
 			\@tempdima#4\relax
 		}%
@@ -158,24 +158,24 @@
 
 % Chapter titles
 
-\def\@tocwriteb#1#2#3{%                                                                                                                                                                                                                                                 
+\def\@tocwriteb#1#2#3{%
   \begingroup
-    \def\@tocline##1##2##3##4##5##6{%                                                                                                                                                                                                                                   
+    \def\@tocline##1##2##3##4##5##6{%
       \ifnum##1>\c@tocdepth
-      \else \sbox\z@{##5\let\indentlabel\@tochangmeasure##6}\fi}%                                                                                                                                                                                                       
-    \csname l@#2\endcsname{#1{\csname#2name\endcsname}{\@secnumber}{}}%                                                                                                                                                                                                 
+      \else \sbox\z@{##5\let\indentlabel\@tochangmeasure##6}\fi}%
+    \csname l@#2\endcsname{#1{\csname#2name\endcsname}{\@secnumber}{}}%
   \endgroup
 \ifx\chaptername\appendixname
-  \addcontentsline{toc}{#2}%                                                                                                                                                                                                                                            
+  \addcontentsline{toc}{#2}%
     {\protect#1{}{\@secnumber}{#3}}
 \else
-  \addcontentsline{toc}{#2}%                                                                                                                                                                                                                                            
+  \addcontentsline{toc}{#2}%
     {\protect#1{\csname#2name\endcsname}{\@secnumber}{#3}}
 \fi
 }
 
 
-\renewcommand{\tocappendix}[3]{%                                                                                                                                                                                                                                          
+\renewcommand{\tocappendix}[3]{%
   \indentlabel{#1\@ifnotempty{#2}{ #2}}#3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
@@ -259,7 +259,7 @@
 	\fi
   \fi
 \advance\skip@-\normalbaselineskip
-  \vskip\skip@ 
+  \vskip\skip@
 }
 
 %--------------------------------------------
@@ -337,7 +337,7 @@
 %
 \let\sectionmark\@gobble % Just to have chapter name...
 
-          
+
 \def\sectionrunhead#1#2#3{%
   \@ifnotempty{#2}{{#1 %\thechapter.
 #2.}\@ifnotempty{#3}{\hskip1em}}
@@ -375,7 +375,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%-------page i-iii ------%%%%%%%%%%%%%%%%%%%%%%%
 %----------------------------------------------------------------------%
 %
-%      TOPMATTER 
+%      TOPMATTER
 %
 %      In \@maketitle we make the following changes:
 %
@@ -384,10 +384,10 @@
 %      author --> aboveskip = 32pt, normalsize instead of small
 
 \def\@maketitle{%
-\clearpage  \thispagestyle{empty}  
+\clearpage  \thispagestyle{empty}
 \begingroup
   \normalfont\normalsize
-  \topskip0\p@  % 
+  \topskip0\p@  %
   \advance\topskip-\headsep \advance\topskip-\headheight
   \vskip12\p@\@plus12\p@
   \vspace*{-20mm}
@@ -399,7 +399,7 @@
        \noindent
        %\parbox[t]{70pt}{\rule[-48pt]{72pt}{72pt}}
 %       \raisebox{-22.13mm}[0em][0em]
-%       {            
+%       {
         %\hspace{80pt}
         %    \raisebox{29.38mm}[0em][0em]{%
         %                 \rule[-\textheight]{.5pt}{\textheight}}\\[2mm]
@@ -411,8 +411,8 @@
                          \rule[0pt]{\textwidth}{.0pt}}\\[-\normalbaselineskip]
         % --- Draw vertical decorative line ---
         \hspace*{80pt}%
-        %\rule[0em]{80pt}{0pt}%       
-        % Note: Must use a trailing '%' 
+        %\rule[0em]{80pt}{0pt}%
+        % Note: Must use a trailing '%'
         % otherwise a small space will be added due to the line feed.
         \vspace*{-4mm}%
         \setlength{\auxdist}{\textheight}%
@@ -426,7 +426,7 @@
             \includegraphics*[width=23mm]{./figures/LogoUC.pdf}\\[.2\normalbaselineskip]
             \else% Use PS version by default (dvips).
             \includegraphics*[width=23mm]{./figures/LogoUC.ps} \\[.2\normalbaselineskip] % ,height=30.38mm
-            \fi 
+            \fi
 %            \raisebox{29.38mm}[0em][0em]{%
 %                         \rule[-\textheight]{.5pt}{\textheight}}\\[2mm]
 %            \raisebox{17.38mm}[0em][0em]{%
@@ -495,11 +495,11 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{
 	\if\spanish@true 1
-      \noindent Tesis para optar al grado de \\
+      \noindent Memoria para optar al grado de \\
        \ifx\@empty\@degree {.........}\else\@degree\fi
 	\else
       \noindent
-      Thesis submitted to the Office of Research and Graduate Studies\\ 
+      Thesis submitted to the Office of Research and Graduate Studies\\
       in partial fulfillment of the requirements for the degree of\\
       \ifx\@empty\@degree {.........}\else\@degree\fi
 	\fi}%end parbox
@@ -520,7 +520,7 @@
       \noindent
       Advisor:\\
 	\fi
-      {%\large 
+      {%\large
       \ifx\@empty\@advisor {.........}\else{\uppercase\@advisor}\fi}}%end parbox
       }%end centering
     }
@@ -535,12 +535,13 @@
   \noindent
   \rm Santiago de Chile, \ifx\@empty\@date {\MoYr}\else\@date\fi
   }%end parbox
-  \vskip5\p@\@plus14\p@
+  \vskip0\p@\@plus14\p@
   %\vfill
   \hspace{100pt}%
   \parbox[t]{.75\textwidth}{
   \noindent
-  \copyrightline}%end parbox
+  %\copyrightline
+  }%end parbox
 \endgroup
 \clearpage  \thispagestyle{empty}
 %%
@@ -548,10 +549,10 @@
 %% Repreat title page, but now include all committee members.
 %%
 %%
-\cleardoublepage  \thispagestyle{empty}  
+\cleardoublepage  \thispagestyle{empty}
 \begingroup
   \normalfont\normalsize
-  \topskip0\p@  % 
+  \topskip0\p@  %
   \advance\topskip-\headsep \advance\topskip-\headheight
   \vskip12\p@\@plus12\p@
   \vspace*{-20mm}
@@ -563,7 +564,7 @@
        \noindent
        %\parbox[t]{70pt}{\rule[-48pt]{72pt}{72pt}}
 %       \raisebox{-22.13mm}[0em][0em]
-%       {            
+%       {
         %\hspace{80pt}
         %    \raisebox{29.38mm}[0em][0em]{%
         %                 \rule[-\textheight]{.5pt}{\textheight}}\\[2mm]
@@ -575,8 +576,8 @@
                          \rule[0pt]{\textwidth}{.0pt}}\\[-\normalbaselineskip]
         % --- Draw vertical decorative line ---
         \hspace*{80pt}%
-        %\rule[0em]{80pt}{0pt}%       
-        % Note: Must use a trailing '%' 
+        %\rule[0em]{80pt}{0pt}%
+        % Note: Must use a trailing '%'
         % otherwise a small space will be added due to the line feed.
         \vspace*{-4mm}%
         \setlength{\auxdist}{\textheight}%
@@ -590,7 +591,7 @@
             \includegraphics*[width=23mm]{./figures/LogoUC.pdf}\\[.2\normalbaselineskip]
             \else% Use PS version by default (dvips).
             \includegraphics*[width=23mm]{./figures/LogoUC.ps} \\[.2\normalbaselineskip] % ,height=30.38mm
-            \fi 
+            \fi
 %            \raisebox{29.38mm}[0em][0em]{%
 %                         \rule[-\textheight]{.5pt}{\textheight}}\\[2mm]
 %            \raisebox{17.38mm}[0em][0em]{%
@@ -685,11 +686,11 @@
       \hspace{100pt}%
       \parbox[t]{.75\textwidth}{
 	\if\spanish@true 1
-      \noindent Tesis para optar al grado de \\
+      \noindent Memoria para optar al grado de \\
        \ifx\@empty\@degree {.........}\else\@degree\fi
 	\else
       \noindent
-      Thesis submitted to the Office of Research and Graduate Studies\\ 
+      Thesis submitted to the Office of Research and Graduate Studies\\
       in partial fulfillment of the requirements for the degree of\\
       \ifx\@empty\@degree {.........}\else\@degree\fi
 	\fi}%end parbox
@@ -711,7 +712,8 @@
   \hspace{100pt}%
   \parbox[t]{.75\textwidth}{
   \noindent
-  \copyrightline}%end parbox
+  %\copyrightline
+  }%end parbox
 \endgroup
 \clearpage  \thispagestyle{empty}
 %% %
@@ -720,13 +722,13 @@
 %% Make dedication page if declared.
 %%
 %%
- \ifx \@empty\@dedication {}%if not defined or empty do nothing 
+ \ifx \@empty\@dedication {}%if not defined or empty do nothing
  \else
  \cleardoublepage  \thispagestyle{empty}
  \begingroup
  ~\vspace*{.7\textheight}\\[-\normalbaselineskip]%
  \mbox{}\hspace*{0.6\textwidth}%
- \parbox[t]{0.4\textwidth}{\centering% 
+ \parbox[t]{0.4\textwidth}{\centering%
  {\em \@dedication}}
  \endgroup
  \clearpage \thispagestyle{empty}
@@ -734,7 +736,7 @@
 } % end \@maketitle
 
 %
-%-----parameters to be set up in the document------------------------- 
+%-----parameters to be set up in the document-------------------------
 %
 \def\mdate#1{\def\@mdate{{#1}}}
 \def\@mdate{}
@@ -785,10 +787,10 @@
 %
 \def\copyrightline{%
   %\centerline
-    {\footnotesize \raisebox{.2ex}{$\copyright$} %${}^{\hbox{\copyright}}$ 
+    {\footnotesize \raisebox{.2ex}{$\copyright$} %${}^{\hbox{\copyright}}$
     \@copyrightyear, %
-    \ifx\@copyrightname\empty{..........}\else 
-    {\@copyrightname}\fi%         
+    \ifx\@copyrightname\empty{..........}\else
+    {\@copyrightname}\fi%
     }%end centerline
                   }
 %
@@ -836,7 +838,7 @@
   \do\degree \do\@degree
   \do\subject \do\@subject
   \do\date \do\@date
-  \do\copyrightyear \do\@copyrightyear
+  %\do\copyrightyear \do\@copyrightyear
 }
 %
 %%%%%%%%%%%%%%%%%%%%%%%%-------end of cover page------%%%%%%%%%%%%%%%%%%%%%%%%
@@ -872,43 +874,43 @@
 
 \def\@captionheadfont{\normalfont}
 
-%------------------------------- 
+%-------------------------------
 \def\today{\number\day\space%           Day month and year
     \ifcase\month
     \or January\or February\or March\or April\or May\or June%
     \or July\or August\or September\or October\or November\or December%
     \fi%
     \space\number\year}%
-%------------------------------- 
+%-------------------------------
 \def\Month{%
     \ifcase\month
     \or January\or February\or March\or April\or May\or June%
     \or July\or August\or September\or October\or November\or December%
     \fi}%
-%------------------------------- 
+%-------------------------------
 \def\Year{\number\year}
-%===================================================FRENCH 
+%===================================================FRENCH
 \def\MoYr{%
     \ifcase\month
     \or January\or February\or March\or April\or May\or June%
     \or July\or August\or September\or October\or November\or December%
     \fi%
     \space\number\year}%
-%------------------------------- 
+%-------------------------------
 \def\todayfr{\space\number\day\space
              \ifcase\month
              \or
   janvier\or f\'evrier\or mars\or avril\or mai\or juin\or
   juillet\or ao\^ut\or septembre\or octobre\or novembre\or d\'ecembre\fi
   \space \number\year}
-%=================================================== 
+%===================================================
 \def\MoYrfr{%
     \ifcase\month\or
   janvier\or f\'evrier\or mars\or avril\or mai\or juin\or
   juillet\or ao\^ut\or septembre\or octobre\or novembre\or d\'ecembre
     \fi%
     \space\number\year}%
-%------------------------------- 
+%-------------------------------
 \def\hhmm{%
     \count1=\time                  % current time in minutes after 00:00
     \count2=\count1                % count 2 contains time in minutes
@@ -916,27 +918,27 @@
     \count3=\count1                % count3  contains hh in hours
     \multiply \count1 by 60        % count1  contains hh in minutes
     \advance\count2 by -\count1    % count2  contains mm in minutes
-                                   % do NOT put a space after<\advance>  
+                                   % do NOT put a space after<\advance>
     \number\count3:\number\count2  % print hours:minutes
    }
-%------------------------------- 
+%-------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
    %                                                               %
    %  Copy of \verbinput : to make listing of TeX files.
-   %  Received from M.J. Downes, AMS techsupport group, 8 Apr. 1992     
+   %  Received from M.J. Downes, AMS techsupport group, 8 Apr. 1992
    %                                                               %
-   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begingroup
 \lccode`\~=`\ % actually, this percent sign is required
 \lowercase{\gdef\verbspaces{\obeyspaces
   \def~{\leavevmode\space}}}
 \endgroup
- 
+
 \def\verbinput#1{%
 % Start a group to keep catcode changes localized.
   \begingroup
@@ -952,9 +954,9 @@
   \input #1\relax
   \endgroup}
 %-------------------------------
-%%%%  Usage: 
+%%%%  Usage:
 %%%%    \verbinput{myfile.tex}
-%------------------------------- 
+%-------------------------------
 
 \def\verbinputx[#1]#2{%
 % Start a group to keep catcode changes localized.

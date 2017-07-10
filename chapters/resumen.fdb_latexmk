@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1499527869 "resumen.tex" "resumen.pdf" "resumen" 1499527869
+  "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
+  "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
+  "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
+  "resumen.aux" 1499527869 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resumen.tex" 1499527867 1905 9d8bd5f3f1d14b34a67d1e00a886eb1c ""
+  (generated)
+  "resumen.log"
+  "resumen.pdf"
