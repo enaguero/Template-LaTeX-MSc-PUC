@@ -63,6 +63,13 @@
 \let\captioncitation\relax
 \captionsetup{format=citation,justification=centering}
 
+% To use settings for description
+\usepackage{enumitem}
+\usepackage{pifont}
+\newcommand\litem[1]{\item{\bfseries #1,\\}}
+
+\newcommand{\dictionary}[1]{(Anexo \ref{dictionary} - \ref{#1})}
+
 
 %--------- NEW ENVIRONMENTS --------- You are free to remove or use it
 \newtheorem{definition}{\bf Definition}[chapter]
@@ -185,13 +192,13 @@
 \pagenumbering{arabic}
 
 \chapter[Capítulo 01]{Capítulo 01}
-\input{./chapters/introduction.tex}
-
-\chapter[CHAPTER 1]{Chapter 1} \label{ch1}
 \input{./chapters/chapter1.tex}
 
-\chapter[CHAPTER 2]{Chapter 2} \label{ch2}
+\chapter[Capítulo 02 : Marco Teórico]{Capítulo 02 : Marco Teórico} \label{ch2}
 \input{./chapters/chapter2.tex}
+
+\chapter[Capítulo 03]{Capítulo 03} \label{ch3}
+\input{./chapters/chapter3.tex}
 
 \chapter[CONCLUSIONS]{Conclusions}
 \input{./chapters/conclusions.tex}
@@ -213,7 +220,7 @@
 \appendix % It is like a chapter, so each appendix (A, B, C...) must to be considered as a section
 
 \newpage
-\section[First Appendix]{First Appendix}
+\section[Glosario]{Glosario} \label{dictionary}
 \input{./chapters/appendix1.tex}
 
 \newpage

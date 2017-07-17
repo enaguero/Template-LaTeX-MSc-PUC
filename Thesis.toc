@@ -1,0 +1,42 @@
+\contentsline {chapter}{\tocchapter {}{}{AGRADECIMIENTOS}}{iv}{chapter*.2}
+\contentsline {chapter}{\tocchapter {}{}{\'INDICE DE FIGURAS}}{vii}{section*.3}
+\contentsline {chapter}{\tocchapter {}{}{\'INDICE DE TABLAS}}{viii}{section*.4}
+\contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{ix}{chapter*.6}
+\contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{x}{chapter*.8}
+\contentsline {chapter}{\tocchapter {}{1}{Cap\IeC {\'\i }tulo 01}}{1}{chapter.1}
+\contentsline {section}{\tocsection {}{1.1}{Motivaci\IeC {\'o}n }}{1}{section.1.1}
+\contentsline {section}{\tocsection {}{1.2}{Contexto }}{2}{section.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.2.1}{Estructura Interna de la Pontificia Universidad Cat\IeC {\'o}lica de Chile }}{2}{subsection.1.2.1}
+\contentsline {subsection}{\tocsubsection {}{1.2.2}{Cursos }}{6}{subsection.1.2.2}
+\contentsline {subsection}{\tocsubsection {}{1.2.3}{Sistema de Cr\IeC {\'e}ditos Acad\IeC {\'e}micos Transferibles }}{6}{subsection.1.2.3}
+\contentsline {subsection}{\tocsubsection {}{1.2.4}{Estructura del Plan de Estudios de Ingenier\IeC {\'\i }a UC }}{7}{subsection.1.2.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.2.4.1}{Licenciatura en Ciencias de la Ingenier\IeC {\'\i }a }}{7}{subsubsection.1.2.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.2.4.2}{Continuidad - Articulaci\IeC {\'o}n Posterior a la Licenciatura }}{10}{subsubsection.1.2.4.2}
+\contentsline {section}{\tocsection {}{1.3}{Desaf\IeC {\'\i }os de informaci\IeC {\'o}n identificados }}{11}{section.1.3}
+\contentsline {chapter}{\tocchapter {}{2}{Cap\IeC {\'\i }tulo 02 : Marco Te\IeC {\'o}rico}}{12}{chapter.2}
+\contentsline {section}{\tocsection {}{2.1}{Introducci\IeC {\'o}n }}{12}{section.2.1}
+\contentsline {section}{\tocsection {}{2.2}{Ingenier\IeC {\'\i }a de Software }}{12}{section.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.2.1}{Modelos y Ciclos de Vida del Desarrollo de Software }}{12}{subsection.2.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.1.1}{Modelo Cascada }}{13}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.1.2}{Modelo Incremental}}{14}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.1.3}{Rapid Application Development (RAD) }}{14}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.1.4}{Enfoque \IeC {\'A}gil }}{16}{subsubsection.2.2.1.4}
+\contentsline {subsection}{\tocsubsection {}{2.2.2}{Metodolog\IeC {\'\i }as de Desarrollo de Software }}{17}{subsection.2.2.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.2.1}{Scrum }}{18}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.2.2}{Extreme Programming }}{22}{subsubsection.2.2.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.2.3}{Levantamiento de Requerimientos }}{23}{subsection.2.2.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.3.1}{Casos de Uso }}{25}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.2.3.2}{Relatos de Usuarios }}{28}{subsubsection.2.2.3.2}
+\contentsline {subsection}{\tocsubsection {}{2.2.4}{Metodolog\IeC {\'\i }a y t\IeC {\'e}cnicas usadas en este trabajo }}{30}{subsection.2.2.4}
+\contentsline {section}{\tocsection {}{2.3}{Descubrimiento de Conocimiento (Knowledge Discovery) }}{31}{section.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.3.1}{Categor\IeC {\'\i }as, metodolog\IeC {\'\i }as y modelos }}{31}{subsection.2.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.3.1.1}{Metodolog\IeC {\'\i }as y modelos }}{31}{subsubsection.2.3.1.1}
+\contentsline {subsection}{\tocsubsection {}{2.3.2}{Metodolog\IeC {\'\i }as y modelos usadas en este trabajo }}{31}{subsection.2.3.2}
+\contentsline {chapter}{\tocchapter {}{3}{Cap\IeC {\'\i }tulo 03}}{32}{chapter.3}
+\contentsline {section}{\tocsection {}{3.1}{Figures and Tables }}{32}{section.3.1}
+\contentsline {section}{\tocsection {}{3.2}{Equations }}{33}{section.3.2}
+\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONS}}{34}{chapter.4}
+\contentsline {chapter}{\tocchapter {}{}{REFERENCES}}{35}{chapter*.11}
+\contentsline {chapter}{\tocappendix {}{}{ANEXO}}{37}{appendix*.12}
+\contentsline {section}{\tocsection {}{A}{Glosario}}{38}{section.Alph0.1}
+\contentsline {section}{\tocsection {}{B}{An Interesting Short Story}}{40}{section.Alph0.2}

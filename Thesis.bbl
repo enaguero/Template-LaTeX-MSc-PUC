@@ -1,0 +1,442 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Agile User Stories,Epics and Themes}}}{%
+\APACcitebtitle {{Agile User Stories,Epics and Themes}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+epic}
+\APACinsertmetastar {%
+epic}%
+\APACrefbtitle {{Agile User Stories,Epics and Themes}.} {{Agile User
+  Stories,Epics and Themes}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.scrumalliance.org/community/spotlight/mike-cohn/march-2014/agile-user-stories-epics-and-themes}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Association for Computing Machinery}}}{%
+\APACcitebtitle {{Association for Computing Machinery}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+acm}
+\APACinsertmetastar {%
+acm}%
+\APACrefbtitle {{Association for Computing Machinery}.} {{Association for
+  Computing Machinery}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://computingcareers.acm.org/?page_id=12}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cockburn%
+}{%
+Cockburn%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+uses_cases_writing}
+\APACinsertmetastar {%
+uses_cases_writing}%
+\begin{APACrefauthors}%
+Cockburn, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {{Writing Effective Use Cases}} {{Writing Effective Use Cases}}.
+\newblock
+\APACaddressPublisher{}{Addison-Wesley Professional}.
+\newblock
+\APAChowpublished {Online}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Créditos UC}}}{%
+\APACcitebtitle {{Créditos UC}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+creditsUC}
+\APACinsertmetastar {%
+creditsUC}%
+\APACrefbtitle {{Créditos UC}.} {{Créditos UC}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://admisionyregistros.uc.cl/alumnos/cursos/creditos-de-un-curso}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Definición de Focus Group}}}{%
+\APACcitebtitle {{Definición de Focus Group}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+abc}
+\APACinsertmetastar {%
+abc}%
+\APACrefbtitle {{Definición de Focus Group}.} {{Definición de Focus Group}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.definicionabc.com/comunicacion/focus-group.php}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gottesdiener%
+}{%
+Gottesdiener%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+gottesdiener}
+\APACinsertmetastar {%
+gottesdiener}%
+\begin{APACrefauthors}%
+Gottesdiener.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1995}.
+\newblock
+\APACrefbtitle {{BUSCAR NOMBRE - Arreglar}} {{BUSCAR NOMBRE - Arreglar}}.
+\newblock
+\APACaddressPublisher{}{WHO KNOWS}.
+\newblock
+\APAChowpublished {Hardcover}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Guía Alumno Ingeniería UC 2017}}}{%
+\APACcitebtitle {{Guía Alumno Ingeniería UC 2017}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+student_manual}
+\APACinsertmetastar {%
+student_manual}%
+\APACrefbtitle {{Guía Alumno Ingeniería UC 2017}.} {{Guía Alumno Ingeniería
+  UC 2017}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://issuu.com/ingenieriauc/docs/guia_del_alumno_2017}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+IEEE%
+}{%
+IEEE%
+}{%
+{\protect \APACyear {1990}}%
+}]{%
+ieee_glosary}
+\APACinsertmetastar {%
+ieee_glosary}%
+\begin{APACrefauthors}%
+IEEE.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1990}.
+\newblock
+\APACrefbtitle {{High Level Models and Methodologies for Information Systems}}
+  {{High Level Models and Methodologies for Information Systems}}.
+\newblock
+\APACaddressPublisherEqAuth{}{IEEE}.
+\newblock
+\APAChowpublished {Online}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Institute%
+}{%
+Institute%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+pmbok_guide}
+\APACinsertmetastar {%
+pmbok_guide}%
+\begin{APACrefauthors}%
+Institute, T\BPBI P\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {{A Guide to the Project Management of Body Knowledge (PMBOK
+  GUIDE)}} {{A Guide to the Project Management of Body Knowledge (PMBOK
+  GUIDE)}}.
+\newblock
+\APACaddressPublisher{}{IEEE}.
+\newblock
+\APAChowpublished {Online}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Isaias~P.%
+}{%
+Isaias~P.%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+agile}
+\APACinsertmetastar {%
+agile}%
+\begin{APACrefauthors}%
+Isaias~P., I\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {{High Level Models and Methodologies for Information Systems}}
+  {{High Level Models and Methodologies for Information Systems}}.
+\newblock
+\APACaddressPublisher{}{Springer}.
+\newblock
+\APAChowpublished {Hardcover}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+M.%
+}{%
+M.%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+user_stories_applied}
+\APACinsertmetastar {%
+user_stories_applied}%
+\begin{APACrefauthors}%
+M., C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {{User Stories Applied: For Agile Software Development}} {{User
+  Stories Applied: For Agile Software Development}}.
+\newblock
+\APACaddressPublisher{}{Addison-Wesley Professional}.
+\newblock
+\APAChowpublished {Online}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Massey%
+\ \BBA {} Satao%
+}{%
+Massey%
+\ \BBA {} Satao%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+masssey}
+\APACinsertmetastar {%
+masssey}%
+\begin{APACrefauthors}%
+Massey%
+\BCBT {}\ \BBA {} Satao.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {{BUSCAR NOMBRE - Arreglar}} {{BUSCAR NOMBRE - Arreglar}}.
+\newblock
+\APACaddressPublisher{}{IEEE Computer Society, Los Alamitos, CA,USA}.
+\newblock
+\APAChowpublished {Hardcover}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mouhib~Alnoukari%
+}{%
+Mouhib~Alnoukari%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+knowledge_discovery}
+\APACinsertmetastar {%
+knowledge_discovery}%
+\begin{APACrefauthors}%
+Mouhib~Alnoukari, A\BPBI E\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {{Chapter 4 Knowledge Discovert Process Models: From Traditional
+  to Agile Modeling}} {{Chapter 4 Knowledge Discovert Process Models: From
+  Traditional to Agile Modeling}}.
+\newblock
+\APACaddressPublisher{}{Business Science Reference (an imprint of IGI Global)}.
+\newblock
+\APAChowpublished {Online}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+P.%
+\ \BBA {} R.%
+}{%
+P.%
+\ \BBA {} R.%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+ieee}
+\APACinsertmetastar {%
+ieee}%
+\begin{APACrefauthors}%
+P., B.%
+\BCBT {}\ \BBA {} R., D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {{Guide to the Software Engineering, Body of Knowledge -
+  Arreglar}} {{Guide to the Software Engineering, Body of Knowledge -
+  Arreglar}}.
+\newblock
+\APACaddressPublisher{}{IEEE Computer Society, Los Alamitos, CA,USA}.
+\newblock
+\APAChowpublished {Hardcover}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Reglamento de Estructura Académica}}}{%
+\APACcitebtitle {{Reglamento de Estructura Académica}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+structure}
+\APACinsertmetastar {%
+structure}%
+\APACrefbtitle {{Reglamento de Estructura Académica}.} {{Reglamento de
+  Estructura Académica}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://secretariageneral.uc.cl/images/Reglamento_sobre_Estructura_Acad%C3%A9mica_v__23_09_16.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rumbaugh~J.%
+}{%
+Rumbaugh~J.%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+uml}
+\APACinsertmetastar {%
+uml}%
+\begin{APACrefauthors}%
+Rumbaugh~J., B\BPBI G., Jacobson~I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {{The Unified Modeling Language Reference Manual (2nd Edition)}}
+  {{The Unified Modeling Language Reference Manual (2nd Edition)}}.
+\newblock
+\APACaddressPublisher{}{Addison-Wesley Professional}.
+\newblock
+\APAChowpublished {Online}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schwaber~K.%
+}{%
+Schwaber~K.%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+scrum_guide}
+\APACinsertmetastar {%
+scrum_guide}%
+\begin{APACrefauthors}%
+Schwaber~K., S\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {{The Scrum Guide}} {{The Scrum Guide}}.
+\newblock
+\APACaddressPublisher{}{Scrum.Org and ScrumInc}.
+\newblock
+\APAChowpublished {Hardcover}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Sistema de Créditos Transferible Chile}}}{%
+\APACcitebtitle {{Sistema de Créditos Transferible Chile}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+set_chile}
+\APACinsertmetastar {%
+set_chile}%
+\APACrefbtitle {{Sistema de Créditos Transferible Chile}.} {{Sistema de
+  Créditos Transferible Chile}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://sct-chile.consejoderectores.cl/que_es_sct_chile.php}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Sitio Web Ingeniería - PUC2}}}{%
+\APACcitebtitle {{Sitio Web Ingeniería - PUC2}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+ingwebsite}
+\APACinsertmetastar {%
+ingwebsite}%
+\APACrefbtitle {{Sitio Web Ingeniería - PUC2}.} {{Sitio Web Ingeniería -
+  PUC2}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.ing.uc.cl/alumnos/plan-de-estudios/descripcion/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{¿Qué es la integración Continua}}}{%
+\APACcitebtitle {{¿Qué es la integración Continua}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+aws}
+\APACinsertmetastar {%
+aws}%
+\APACrefbtitle {{¿Qué es la integración Continua}.} {{¿Qué es la
+  integración Continua}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://aws.amazon.com/es/devops/continuous-integration/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
