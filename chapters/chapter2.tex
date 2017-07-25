@@ -20,7 +20,14 @@ A lo largo de la historia de S.E. se ha creado una diversidad de modelos o ciclo
 
 Este enfoque define una secuencia lineal de pasos para la creación de un software. Las etapas suelen incluir análisis de requisitos del sistema, análisis de requisitos de software, diseño preliminar, diseño, codificación, pruebas y mantenimiento. La siguiente ilustración muestra las etapas mencionadas anteriormente.
 
-!!!! FIGURA !!!!
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=0.5\textwidth]{./figures/chapter_02/01_cascade_phases.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Fases del Modelo Cascada}
+  \label{fig:cascade_model_phases}
+	\end{center}
+\end{figure}
 
 El modelo de cascada se caracteriza por sus fases secuenciales, las cuales deben terminar de modo completo antes de iniciar una nueva. Adicionalmente, posee un fuerte enfoque en el levantamiento de requerimientos antes de iniciar cualquier actividad de código o de implementación del software, por lo cual se caracteriza por una intensa comunicación con los clientes o stakeholders en las fases iniciales, para luego dar protagonismo a las fases de codificación, pruebas y mantenimiento.
 
@@ -42,7 +49,14 @@ El modelo de cascada se caracteriza por sus fases secuenciales, las cuales deben
 
 Este modelo consiste en una evolución del anterior mejorando la flexibilidad y al mismo tiempo disminuyendo  el tiempo de interacción con los stakeholders a lo largo de todo el proyecto. Con estos objetivos en mente, en vez de crear un proceso con etapas aisladas, se crea un proyecto que  puede ser diseñado, desarrollado e implementado en etapas sucesivas, incorporando al mismo tiempo la retroalimentación del cliente en etapas intermedias \cite{masssey}. El siguiente esquema ejemplifica la filosofía de este nuevo enfoque:
 
-!!!! FIGURA !!!!
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=\textwidth]{./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Ejemplo de Ciclo de Vida del Modelo Incremental}
+  \label{fig:cascade_incremental_model}
+	\end{center}
+\end{figure}
 
 \textbf{Ventajas}
 \begin{enumerate}
@@ -61,7 +75,14 @@ Esta filosofía de desarrollo se basa en la idea de que los métodos desarrollad
 
 Este proceso de creación posee dos modalidades, la primera consiste en 4 fases secuenciales de tiempo : planificación de requerimientos, diseño desde el punto de vista del usuario, construcción y transición a la siguiente fase. En la segunda modalidad se fusionan las fases de planificación de requerimientos y diseño en una sola de análisis. Todas las fases de desarrollo en ambas modalidades se desarrolla en un espacio de tiempo determinado denominado timebox, donde se priorizan las actividades en función de las necesidades del negocio sin importar el desafío técnico al cual se ven enfrentadas \cite{gottesdiener}. A continuación se presenta un posible esquema de trabajo bajo esta metodología:
 
-!!!!! FIGURA !!!!!!
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=\textwidth]{./figures/chapter_02/03_succession_of_increments.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Sucesión de Incrementos en Timebox de 4 (o 3) pasos}
+  \label{fig:succession_of_increments}
+	\end{center}
+\end{figure}
 
 \textbf{Ventajas}
 \begin{enumerate}
@@ -105,29 +126,55 @@ En términos generales es posible establecer 4 etapas para el desarrollo bajo es
   \item[4. Entrega de producto maduro \textit{(product release)}] Esta fase final está caracterizada nuevamente por dos etapas, pruebas y mejoramiento así como también de la documentación necesaria para el entendimiento del proyecto.
 \end{description}
 
-El siguiente esquema muestra el proceso genérico bajo cualquier proceso con enfoque ágil:
+El esquema \ref{fig:agile_development_life_cycle} muestra el proceso genérico bajo cualquier proceso con enfoque ágil:
 
-!!!! FIGURA !!!!!
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=0.85\textwidth]{./figures/chapter_02/04_agile_development_life_cycle.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{ Ejemplo del Ciclo de Vida del Desarrollo Ágil}
+  \label{fig:agile_development_life_cycle}
+	\end{center}
+\end{figure}
 
 \subsection{Metodologías de Desarrollo de Software \label{sec:methodologies}}
 
 Un modelo o ciclo de vida puede ser considerado como una estructura de referencia, una estrategia general para enfrentar el desarrollo, pero no prescribe el modo concreto de llevarlo a cabo. La forma específica de cómo llevar a cabo el proyecto la define una metodología orientada por un determinado modelo o enfoque.
 
-Dentro de los modelos mencionados anteriormente él más relevante hoy en día es enfoque ágil debido a los cambios que ha sufrido la industria tanto a nivel tecnológico como social. Desde su nacimiento en el año 2001 por la declaración del Manifiesto Ágil han surgidos diversas metodologías, las cuales enfrentan diferentes desafíos impuestos por los supuestos de esta modalidad de desarrollo, tales como incorporación de cambios en cualquier momento del proyecto. A continuación se describen dos de las metodologías más populares que permiten implementar el enfoque ágil, éstas son Scrum y Extreme programming (XP). La figura muestra la dominancia de Scrum entre las metodologías ágiles:
+Dentro de los modelos mencionados anteriormente él más relevante hoy en día es enfoque ágil debido a los cambios que ha sufrido la industria tanto a nivel tecnológico como social. Desde su nacimiento en el año 2001 por la declaración del Manifiesto Ágil han surgidos diversas metodologías, las cuales enfrentan diferentes desafíos impuestos por los supuestos de esta modalidad de desarrollo, tales como incorporación de cambios en cualquier momento del proyecto. A continuación se describen dos de las metodologías más populares que permiten implementar el enfoque ágil, éstas son Scrum y Extreme programming (XP). La figura \ref{fig:agile_methodologies_used} muestra la dominancia de Scrum entre las metodologías ágiles:
 
-!!!!!  FIGURA !!!!!
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=0.85\textwidth]{./figures/chapter_02/05_agile_methodologies_used.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Uso de Metodologías Ágiles}
+  \label{fig:agile_methodologies_used}
+	\end{center}
+\end{figure}
 
 Como se aprecia sólo Scrum cubre más del $50\%$ de la industria. Si bien XP representa sólo un $1\%$, es la base de Scrum/XP Hybrid que es usado por $10\%$ de la industria y es muy usada en grupos pequeños de desarrollo. Por lo tanto, en el desarrollo de este trabajo se consideraron tanto Scrum como XP.
 
 \subsubsection{Scrum \label{sec:scrum}}
 
-Esta metodología se basa principalmente en cómo un equipo debe funcionar y las relaciones que los miembros de éste establecen. Para lograr este objetivo se definen roles, eventos, artefactos y reglas. Cada componente dentro de este marco de referencia sirve para un propósito específico que son esenciales para éxito de su aplicación \cite{scrum_guide}. A continuación se ilustra la forma de trabajo en esta metodología en dos aspectos, primero se identificación los elementos presente en la metodología y a continuación se muestra cómo estos interactúan en el transcurso de un proyecto:
+Esta metodología se basa principalmente en cómo un equipo debe funcionar y las relaciones que los miembros de éste establecen. Para lograr este objetivo se definen roles, eventos, artefactos y reglas. Cada componente dentro de este marco de referencia sirve para un propósito específico que son esenciales para éxito de su aplicación \cite{scrum_guide}. A continuación se ilustra la forma de trabajo en esta metodología en dos aspectos, primero la figura \ref{fig:scrum} se identificación los elementos presente en la metodología y a continuación en la figura \ref{fig:scrum_framework} se muestra cómo estos interactúan en el transcurso de un proyecto.
 
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=0.85\textwidth]{./figures/chapter_02/06_scrum.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Elementos presenten en Scrum}
+  \label{fig:scrum}
+	\end{center}
+\end{figure}
 
-!!!!!  FIGURA !!!!!
-
-
-!!!!!  FIGURA !!!!!
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=1\textwidth]{./figures/chapter_02/07_scrum_framework.jpg}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Scrum Framework}
+  \label{fig:scrum_framework}
+	\end{center}
+\end{figure}
 
 Los roles identificados en este metodología son:
 
@@ -198,9 +245,16 @@ Los tiempos de desarrollo en XP se basan en iteraciones de 3 semanas en las cual
   \item Utilización de metáforas para el diseño : Consiste en crear un lenguaje común para el equipo de desarrollo y clientes con el objetivo de que todos puedan comprender los conceptos y definiciones usadas en el proyecto del mismo modo.
 \end{enumerate}
 
-La metodología es poco prescriptiva (en comparación a Scrum) pero existen prácticas sugeridas para organizar el flujo de trabajo. Por ejemplo, el sitio ExtremProgramming.Org sugiere el siguiente esquema:
+La metodología es poco prescriptiva (en comparación a Scrum) pero existen prácticas sugeridas para organizar el flujo de trabajo. Por ejemplo, el sitio ExtremProgramming.Org sugiere el esquema presentado en la figura \ref{fig:extreme_programming_workflow}.
 
-!!!! FIGURA !!!!
+\begin{figure}[ht]
+	\begin{center}
+  \includegraphics[width=1\textwidth]{./figures/chapter_02/08_extreme_programming_project.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Flujo de Trabajo en \textit{Extreme Programming}}
+  \label{fig:extreme_programming_workflow}
+	\end{center}
+\end{figure}
 
 \subsection{Levantamiento de Requerimientos \label{sec:requirements}}
 
@@ -248,9 +302,16 @@ De Acuerdo a Cockburn \cite{uses_cases_writing}, un caso de uso se define como l
       \item \textbf{\textit{Subfunction}} Corresponde al conjunto de objetivos obligatorios que deben cumplirse poder alcanzar otros objetivos de nivel superior. A este nivel un objetivo secundario ya es posible identificarlo como una acción clara del usuario.
       \item \textbf{\textit{Too Low}} Corresponde a un nivel de objetivos más abajo que subfunction y agrupan todas las tareas más básicas que deben realizarse lograr el objetivo planteado.
 
-      El siguiente esquema permite visualizar de forma gráfica un ejemplo de los niveles mencionados:
+      El esquema \ref{fig:use_cases_levels} permite visualizar de forma gráfica un ejemplo de los niveles mencionados.
 
-      !!!! FIGURA !!!!!
+      \begin{figure}[ht]
+      	\begin{center}
+        \includegraphics[width=1\textwidth]{./figures/chapter_02/09_cockburnstyle_use_cases.png}
+        \setcaptioncitation{PENDIENTE}
+        \caption{Niveles de los Objetivos}
+        \label{fig:use_cases_levels}
+      	\end{center}
+      \end{figure}
 
       \item \textbf{Actor Principal \textit{(Principal Actor)}:} Indica al usuario que realiza o ejecuta el conjunto de acciones indicadas por el caso de usuario. Si bien Cockburn menciona en esta versión de caso de uso sólo un actor dentro del caso de uso, es posible incluir otros como actores secundarios.
       \item \textbf{\textit{Stakeholders} e intereses \textit{(Stakeholders and Interests)}:} Se atribuye al conjunto de stakeholder y los objetivos que cada uno busca.
@@ -264,13 +325,27 @@ De Acuerdo a Cockburn \cite{uses_cases_writing}, un caso de uso se define como l
     \end{enumerate}
 \end{enumerate}
 
-La lista anteriormente descrita puede verse resumida en el siguiente recuadro conocido por Cockburn como la versión completamente vestida (fully dressed):
+La lista anteriormente descrita puede verse resumida en el recuadro \ref{fig:uses_cases_summary} conocido por Cockburn \cite{uses_cases_writing} como la versión completamente vestida (fully dressed).
 
-!!!! FIGURA !!!!!
+\begin{figure}[ht]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{./figures/chapter_02/10_use_case_template_one_column_version.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Versión de Caso de Uso de una columna}
+  \label{fig:uses_cases_summary}
+  \end{center}
+\end{figure}
 
-Adicionalmente a lo descrito anteriormente, con el objetivo de tener una mejor visualización de la interacción entre casos de usos y actores principales como secundarios el \textit{Unified Modeling Language (U.M.L.)} \cite{uml} entrega los estándares y elementos para realizar la diagramación de un caso de uso. Este tipo de diagrama se denomina use case view o vista de un caso de uso. Los elementos presentes en esta visualización son los siguientes:
+Adicionalmente a lo descrito anteriormente, con el objetivo de tener una mejor visualización de la interacción entre casos de usos y actores principales como secundarios el \textit{Unified Modeling Language (U.M.L.)} \cite{uml} entrega los estándares y elementos para realizar la diagramación de un caso de uso. Este tipo de diagrama se denomina use case view o vista de un caso de uso. Los elementos presentes en esta visualización se aprecian en la representación gráfica de un caso de uso (figura \ref{fig:use_case_view}).
 
-!!!! FIGURA !!!!!
+\begin{figure}[ht]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{./figures/chapter_02/11_use_case_view.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Representación Gráfica de un Caso de Uso}
+  \label{fig:use_case_view}
+  \end{center}
+\end{figure}
 
 De este modo, para lograr la descripción de un caso de uso, se necesita tanto su diagrama descrito en UML como su detalle, el cual puede estar basado en la estructura propuesta por Cockburn o una estructura similar, pero más simple.
 
@@ -318,8 +393,83 @@ Finalmente, el hecho de que el formato de los relatos de usuarios marque explíc
 Fayyad \cite{knowledge_discovery} en 1996 define término Knowledge Discovery como el conjunto de conocimientos relativos al proceso de extracción, almacenamiento y accesibilidad de datos; el uso de algoritmos ,en forma eficiente, para el análisis de los mismos; y, finalmente, la interpretación y visualización de resultados en base a estos, este resultado es conocido como \textit{knowledge}(conocimiento).
 
 \subsection{Categorías, metodologías y modelos \label{sec:problem_categories}}
-Desde la creación de este término hasta hoy en día han surgido varias metodologías para llevar a cabo el proceso anteriormente descrito, el cual se denomina \textit{Knowledge Discovery Process (KDP)}. Mouhib y Asim \cite{knowledge_discovery} logran identificar un total de 4:
+Desde la creación de este término hasta hoy en día han surgido varias metodologías para llevar a cabo el proceso anteriormente descrito, el cual se denomina \textit{Knowledge Discovery Process (KDP)}. Se logran logran identificar un total de 4 \cite{knowledge_discovery}:
 
-\subsubsection{Metodologías y modelos \label{sec:knowledge_discovery_models}}
+\begin{enumerate}
+  \item \textbf{\textit{Traditional KDP Approach}}\mbox{}\\ Agrupa aquellas metodologías que ocupan un proceso similar al propuesto por Fayyad et al., los cuales poseen las etapas de entendimiento del negocio, entendimiento de los datos, procesamientos de los datos, modelamiento o minería de datos, evaluación de modelos y ,finalmente, paso a producción o visualización. La característica principal de estas metodologías es que consisten en etapas secuenciales y sin mucha flexibilidad para la aceptación de cambios. La figura XX permite la visualización de estas etapas en funcionamiento:
+  \item \textbf{\textit{Ontology-based KDP Approach}}\mbox{}\\ Se basa en la mezcla de ingeniería ontológica \dictionary{ontoligical} y un enfoque tradicional para KDP.
+  \item \textbf{\textit{Web-based KDP Approach}} \mbox{} \\ Incorpora las mismas etapas que la primera categoría, pero reconoce de forma especial a la información proveniente de \textit{web logs} y ,por lo mismo, define etapas precisas para el tratamiento de la misma.
+  \item \textbf{\textit{Agile-based KDP Approach}} \mbox{} \\  Esta categoría agrupa aquellos modelos que incorporan metodologías ágiles a un enfoque tradicional para KDP.
+\end{enumerate}
+
+
+\subsubsection{Modelos \label{sec:knowledge_discovery_models}}
+
+Los mismos autores mencionados anteriormente, Mouhib y Asim, reconocen al mismo al mismo tiempos 9 modelos considerados líderes a lo largo de la historia de KDP, estos modelos son:
+
+\begin{tabularx}{\linewidth}{@{}Y  Y  Y  Y@{}}
+  \caption{Modelos a lo largo de la historia de \textit{KDP}} \label{tab:kdp_models}\\
+  \toprule
+  Nombre	&	Autor	&	Año de Creación
+  \endhead
+  \midrule
+  Knowledge Discovery in Databases (KDD) Process & Fayyad et al. & 1996 \\
+  \midrule
+  Information Flow in a Data Mining Life Cycle & Ganesh et al. & 1996 \\
+  \midrule
+  SEMMA & SAS Institute & 1997 \\
+  \midrule
+  Refined KDD paradigm & Collier et al. & 1998 \\
+  \midrule
+  Knowledge Discovery Life Cycle (KDLC) Model & Lee and Kerschberg & 1998 \\
+  \midrule
+  CRoss-Industry-Standard Process for Data Mining (CRISP-DM) & CRISP-DM & 2000 \\
+  \midrule
+  Generic Data Mining Life Cycle by (DMLC) & Hofmann & 2003 \\
+  \midrule
+  Ontology Driven Knowledge Discovery Process (ODKD) & Gottgtroy & 2007 \\
+  \midrule
+  Adaptive Software Development-Data Mining (ASD-DM) Process Model & Alnoukari et al. & 2008 \\
+\end{tabularx}
+
+Dentro de todos los modelos mencionados anteriormente se consideran relevantes para el presente trabajo CRISP-DM y ASD-DM, los cuales se describen las siguientes secciones.
+
+\subsubsection{CRISP-DM \label{crip_dm}}
+Este fue uno de los primeros modelos que intentó abarcar la problema impuesta por el área de \textit{Knowledge Discovery}. Para lograr lo anterior este modelo define 4 niveles de abstracción, en los cuales se realizan actividades, las cuales a su vez pertenecen a una de las 6 fases específicas por las cuales pasa todo proceso. A continuación se ilustran los 4 niveles creados en este modelo:
+
+!!!! FIGURA !!!!
+
+Dentro de cada nivel se deben definir actividades, las cuales a su vez se encuentran categorizadas y divididas al mismo tiempo en sub tareas para poder llevarse a cabo. La intención de estos niveles jerárquicos es poder tener una clara agrupación de qué tareas específicas se realizan en cada proceso utilizada para la generación de conocimiento. Por otro lado, no existe un listado de actividades o tareas específicas que se deban realizar en cada uno de los niveles, sólo se espera que las tareas en las fases que se ilustran a continuación contengan sus tareas o actividades categorizadas en los niveles previamente mencionados.
+
+!!!! FIGURA !!!!
+
+Por la definición de estas fases se considera que este modelo posee un enfoque tradicional para KDP. Es posible establecer las siguientes definiciones para cada una de las fases ilustradas anteriormente \cite{knowledge_discovery}:
+
+\begin{enumerate}
+  \item \textbf{\textit{Business Understanding}:} Consiste en el entendimiento de los requerimientos generales del contexto en el cual se desenvuelve el proyecto así. En base a lo anterior, se crea una lista de objetivos que puedan ser respondidos por minería de datos y ,finalmente, elemento se crea una planificación general del proyecto.
+  \item \textbf{\textit{Data Understanding}:} Esta etapa concierne específicamente a la recolección de los datos iniciales, descripción de ellos a través de metadata, exploración y verificación de la calidad de los mismos.
+  \item \textbf{\textit{Data Preparation}:} Corresponden a todas las actividades necesarias para la creación del conjunto de datos final que será utilizada en la siguiente fase de modelamiento y análisis. Se encuentra dividido en : selección, limpieza, construcción, integración y formateo de datos.
+  \item \textbf{\textit{Modeling}:} Orientado a la selección y aplicación apropiada de técnicas de modelamiento y minería de datos. Se encuentra seccionado en las fases de selección de técnicas de modelamiento, generación de pruebas, creación de modelos y ,finalmente, evaluación de los modelos generados.
+  \item \textbf{\textit{Evaluation}:} Relacionado a la evaluar si el modelo escogido cumple con los objetivos impuestos en la primera fase.
+  \item \textbf{\textit{Deployment}:} Etapa relacionada a la instalación a todo lo necesario para que el conocimiento generado puede ser ocupado por los usuarios finales. Esta etapa se caracteriza por presentar las siguientes fases: plan de instalación, plan de monitoreo y mantenimiento, generación de un reporte final donde se explica lo realizado y revisión de los pasos a seguir, en caso de ser requerido, de lo contrario, la finalización del proyecto.
+\end{enumerate}
+
+\subsubsection{Adaptative Software Development - Data Minning (ASD-DM) \label{asd_dm}}
+
+Este modelo se caracteriza por la incorporación de elementos presentes en metodologías ágiles para los proyectos de minería de datos. La idea basal sobre esta filosofía es que un enfoque adaptativo (flexible y/o incremental) posee un mejor rendimiento al momento de trabajar con requerimientos desconocidos o cambiantes, efecto que no es posible resolver de forma eficiente en los enfoques tradicionales de KDP.
+
+Para lograr su objetivo, este modelo \cite{knowledge_discovery} define 6 etapas organizadas en 3 fases que se muestran a continuación:
+
+!!!!!! FIGURA !!!!!!!
+
+Las etapas presentadas anteriormente pueden definirse del siguiente modo:
+
+\begin{enumerate}
+  \item \textbf{Etapa de Especulación \textit{(Speculation)}:} Incluye todas actividades que se necesiten realizar para el entendimiento del negocio y la preparación de los datos. Esta etapa termina cuando se han creado las fuentes de información en forma de \textit{data warehouse}, \textit{data marts}, cubos o agrupaciones de los datos.
+  \item \textbf{Etapa de Colaboración \textit{(Collaboration)}:} Propicia toda actividad en donde se involucre a los stakeholders del proyecto para así poder escoger el mejor modelo para realizar la predicción posible.
+  \item \textbf{Etapa de Aprendizaje \textit{(Learning)}:} Orientada a definir las tareas de pruebas y evaluación de los resultados obtenidos por el o los modelos escogidos en la fase anterior. En caso de ser los resultados aceptados por los \textit{stakeholders}, se procede a la entrega de un reporte final con los resultados explicados, de contrario, se vuelve a la fase anterior.
+\end{enumerate}
 
 \subsection{Metodologías y modelos usadas en este trabajo \label{sec:problem_categories}}
+
+Si bien la metodología CRISP-DM presenta muchas de las cualidades que se necesitan para el desarrollo de este proyecto, no era la metodología más adecuada debido  a que incluye una claro paso a producción una vez que la etapa de evaluación haya llegado a su fin. El objetivo de este proyecto es poder presentar una primera solución al cálculo de la demanda de cursos del nuevo currículum de estudios, el cual aún no posee datos suficientes para poder realizar una generalización de datos para los próximos años. Frente a esta situación, se hace necesario que el proceso de aprendizaje se haga de un modo más continuo y que la nueva información que se vaya consiguiendo en el tiempo permita mejorar los niveles de predicción obtenidos. Teniendo en cuenta estos objetivos, se consideró que la metodología \textit{Adaptive Software Development-Data Mining} era la apropiada  gracias a la interacción continúa entre sus fases collaboration y learning, logrando así una incorporación de nuevos datos a medida que pase el tiempo e ir mejorando así los modelos predictivos creados.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JUL 2017 00:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 JUL 2017 09:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,7 +1067,7 @@ Overfull \hbox (47.26036pt too wide) in paragraph at lines 134--134
 os-
  []
 
-[6] [7] <./figures/model_t.png, id=308, 667.49374pt x 831.105pt>
+[6] [7] <./figures/model_t.png, id=332, 667.49374pt x 831.105pt>
 File: ./figures/model_t.png Graphic file (type png)
 
 <use ./figures/model_t.png>
@@ -1080,7 +1080,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) detected at line 185
  []
 
-<./figures/malla_curricular.png, id=324, 2567.5925pt x 2297.58376pt>
+<./figures/malla_curricular.png, id=348, 2567.5925pt x 2297.58376pt>
 File: ./figures/malla_curricular.png Graphic file (type png)
 
 <use ./figures/malla_curricular.png>
@@ -1113,38 +1113,106 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+<./figures/chapter_02/01_cascade_phases.png, id=390, 504.88625pt x 408.52625pt>
+File: ./figures/chapter_02/01_cascade_phases.png Graphic file (type png)
+<use ./figures/chapter_02/01_cascade_phases.png>
+Package pdftex.def Info: ./figures/chapter_02/01_cascade_phases.png used on inp
+ut line 25.
+(pdftex.def)             Requested size: 214.67603pt x 173.7055pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [13 <./figures/chapter_02/01_cascade_phases.png>]
+<./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png, id=400, 1370.11
+874pt x 524.96124pt>
+File: ./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png Graphic fil
+e (type png)
+
+<use ./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png>
+Package pdftex.def Info: ./figures/chapter_02/02_example_of_incremental_lyfe_ci
+cle.png used on input line 54.
+(pdftex.def)             Requested size: 429.35207pt x 164.50656pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [14 <./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png>]
+<./figures/chapter_02/03_succession_of_increments.png, id=415, 1192.455pt x 462
+.72874pt>
+File: ./figures/chapter_02/03_succession_of_increments.png Graphic file (type p
+ng)
+ <use ./figures/chapter_02/03_succession_of_increments.png>
+Package pdftex.def Info: ./figures/chapter_02/03_succession_of_increments.png u
+sed on input line 80.
+(pdftex.def)             Requested size: 429.35207pt x 166.61046pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-Overfull \hbox (19.9434pt too wide) in paragraph at lines 102--103
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./figures/chapter_02/03_succession_of_increments.png>]
+Overfull \hbox (19.9434pt too wide) in paragraph at lines 123--124
 []\T1/ptm/m/n/12 Los stake-hold-ers (ad-min-istradores, de-sar-rol-ladores,
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [17]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 105.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 126.
 
-Overfull \hbox (3.8996pt too wide) in paragraph at lines 105--106
+Overfull \hbox (3.8996pt too wide) in paragraph at lines 126--127
 []\T1/ptm/m/n/12 Esta fase fi-nal está car-ac-ter-i-zada nue-
  []
 
 
+<./figures/chapter_02/04_agile_development_life_cycle.png, id=462, 1165.35374pt
+ x 625.33624pt>
+File: ./figures/chapter_02/04_agile_development_life_cycle.png Graphic file (ty
+pe png)
+ <use ./figures/chapter_02/04_agile_development_life_cycle.png>
+Package pdftex.def Info: ./figures/chapter_02/04_agile_development_life_cycle.p
+ng used on input line 133.
+(pdftex.def)             Requested size: 364.95187pt x 195.8274pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [18 <./figures/chapter_02/04_agile_development_life_cycle.png>]
+<./figures/chapter_02/05_agile_methodologies_used.png, id=470, 1029.8475pt x 52
+9.98pt>
+File: ./figures/chapter_02/05_agile_methodologies_used.png Graphic file (type p
+ng)
+ <use ./figures/chapter_02/05_agile_methodologies_used.png>
+Package pdftex.def Info: ./figures/chapter_02/05_agile_methodologies_used.png u
+sed on input line 148.
+(pdftex.def)             Requested size: 364.95187pt x 187.8086pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-Overfull \hbox (14.30885pt too wide) in paragraph at lines 144--145
+ [19 <./figures/chapter_02/05_agile_methodologies_used.png>]
+<./figures/chapter_02/06_scrum.png, id=481, 1027.84pt x 770.88pt>
+File: ./figures/chapter_02/06_scrum.png Graphic file (type png)
+
+<use ./figures/chapter_02/06_scrum.png>
+Package pdftex.def Info: ./figures/chapter_02/06_scrum.png used on input line 1
+63.
+(pdftex.def)             Requested size: 364.95187pt x 273.71725pt.
+
+<./figures/chapter_02/07_scrum_framework.jpg, id=482, 5018.75pt x 2919.90875pt>
+File: ./figures/chapter_02/07_scrum_framework.jpg Graphic file (type jpg)
+<use ./figures/chapter_02/07_scrum_framework.jpg>
+Package pdftex.def Info: ./figures/chapter_02/07_scrum_framework.jpg used on in
+put line 172.
+(pdftex.def)             Requested size: 429.35207pt x 249.77063pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./figures/chapter_02/06_scrum.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./figures/chapter_02/07_scrum_framework.jpg>]
+Overfull \hbox (14.30885pt too wide) in paragraph at lines 191--192
    [] \T1/ptm/m/n/12 Es una lista or-de-nada de to-das las necesi-dades del pro
 -ducto/proyecto
  []
@@ -1152,17 +1220,17 @@ Overfull \hbox (14.30885pt too wide) in paragraph at lines 144--145
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
-Overfull \hbox (21.14862pt too wide) in paragraph at lines 159--161
+ [22]
+Overfull \hbox (21.14862pt too wide) in paragraph at lines 206--208
 \T1/ptm/m/n/12 los miem-bros del equipo de de-sar-rollo iden-ti-f-i-can los log
 ros obtenidos
  []
 
 
-Overfull \hbox (2.59325pt too wide) in paragraph at lines 162--163
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (2.59325pt too wide) in paragraph at lines 209--210
 []\T1/ptm/m/n/12 Se ex-pli-can en de-talle los prob-le-mas ocur-ri-dos y cómo f
 ueron
  []
@@ -1170,40 +1238,109 @@ ueron
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
+<./figures/chapter_02/08_extreme_programming_project.png, id=542, 660.4675pt x 
+207.77625pt>
+File: ./figures/chapter_02/08_extreme_programming_project.png Graphic file (typ
+e png)
+ <use ./figures/chapter_02/08_extreme_programming_project.png>
+Package pdftex.def Info: ./figures/chapter_02/08_extreme_programming_project.pn
+g used on input line 252.
+(pdftex.def)             Requested size: 429.35207pt x 135.07513pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [26 <./figures/chapter_02/08_extreme_programming_project.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
+<./figures/chapter_02/09_cockburnstyle_use_cases.png, id=592, 803.0pt x 401.5pt
+>
+File: ./figures/chapter_02/09_cockburnstyle_use_cases.png Graphic file (type pn
+g)
+ <use ./figures/chapter_02/09_cockburnstyle_use_cases.png>
+Package pdftex.def Info: ./figures/chapter_02/09_cockburnstyle_use_cases.png us
+ed on input line 309.
+(pdftex.def)             Requested size: 429.35207pt x 214.68091pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-Overfull \hbox (1.02577pt too wide) in paragraph at lines 318--319
+ [30 <./figures/chapter_02/09_cockburnstyle_use_cases.png>]
+<./figures/chapter_02/10_use_case_template_one_column_version.png, id=620, 1153
+.30875pt x 1024.82875pt>
+File: ./figures/chapter_02/10_use_case_template_one_column_version.png Graphic 
+file (type png)
+
+<use ./figures/chapter_02/10_use_case_template_one_column_version.png>
+Package pdftex.def Info: ./figures/chapter_02/10_use_case_template_one_column_v
+ersion.png used on input line 332.
+(pdftex.def)             Requested size: 343.48296pt x 305.21481pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <./figures/chapter_02/10_use_case_template_one_column_version.png>]
+<./figures/chapter_02/11_use_case_view.png, id=632, 539.01375pt x 429.605pt>
+File: ./figures/chapter_02/11_use_case_view.png Graphic file (type png)
+
+<use ./figures/chapter_02/11_use_case_view.png>
+Package pdftex.def Info: ./figures/chapter_02/11_use_case_view.png used on inpu
+t line 343.
+(pdftex.def)             Requested size: 343.48296pt x 273.76631pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32 <./figures/chapter_02/11_use_case_view.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Overfull \hbox (1.02577pt too wide) in paragraph at lines 393--394
 []\T1/ptm/m/n/12 Fayyad [][]Mouhib Al-noukari[], []2012[]) en 1996 de-fine tér-
 mino Knowl-edge Dis-cov-ery como
  []
 
-) [31]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) detected at line 433
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+[37]
+Overfull \hbox (13.12727pt too wide) in paragraph at lines 451--452
+[]\T1/ptm/b/it/12 Data Prepa-ra-tion\T1/ptm/b/n/12 : \T1/ptm/m/n/12 Cor-re-spon
+-den a to-das las ac-tivi-dades nece-sarias para la creación
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Overfull \hbox (4.2875pt too wide) in paragraph at lines 459--460
+[]\T1/ptm/m/n/12 Este mod-elo se car-ac-ter-iza por la in-cor-po-ración de el-e
+-men-tos pre-sentes en metodologías
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39])
+[40]
  3
 
 Underfull \hbox (badness 10000) in paragraph at lines 200--200
@@ -1211,7 +1348,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--200
  []
 
 (./chapters/chapter3.tex
-<./figures/selfie_monkey.jpg, id=614, 748.7975pt x 536.0025pt>
+<./figures/selfie_monkey.jpg, id=730, 748.7975pt x 536.0025pt>
 File: ./figures/selfie_monkey.jpg Graphic file (type jpg)
 
 <use ./figures/selfie_monkey.jpg>
@@ -1220,17 +1357,17 @@ Package pdftex.def Info: ./figures/selfie_monkey.jpg used on input line 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [41
 
 
- <./figures/selfie_monkey.jpg>]) [33]
+ <./figures/selfie_monkey.jpg>]) [42]
  4
 
 Underfull \hbox (badness 10000) in paragraph at lines 203--203
 
  []
 
-(./chapters/conclusions.tex) [34
+(./chapters/conclusions.tex) [43
 
 
 ] (./Thesis.bbl
@@ -1239,17 +1376,17 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 17.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \vbox (badness 1436) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35
+ [44
 
 
 
 
 ])
-[36]
+[45]
 ANEXO
-[37
+[46
 
 
 ] (./chapters/appendix1.tex
@@ -1261,10 +1398,10 @@ t/12 soft-ware\T1/ptm/m/n/12 , por ejem-plo, rendimiento.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38])
-[39] (./chapters/appendix2.tex)
+ [47])
+[48] (./chapters/appendix2.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
- [40]
+ [49]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
@@ -1277,13 +1414,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10397 strings out of 492995
- 146483 string characters out of 6132704
- 268872 words of memory out of 5000000
- 13312 multiletter control sequences out of 15000+600000
+ 10517 strings out of 492995
+ 150080 string characters out of 6132704
+ 270196 words of memory out of 5000000
+ 13381 multiletter control sequences out of 15000+600000
  36884 words of font info for 65 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 43i,12n,55p,1401b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,55p,1401b,705s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
@@ -1294,10 +1431,10 @@ mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on Thesis.pdf (50 pages, 1749456 bytes).
+Output written on Thesis.pdf (59 pages, 3441338 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
- 701 compressed objects within 8 object streams
- 255 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 804 compressed objects within 9 object streams
+ 294 named destinations out of 1000 (max. 500000)
+ 344 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -161,6 +161,22 @@ IEEE.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Ingeniería Ontológica}}}{%
+\APACcitebtitle {{Ingeniería Ontológica}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+ontology_engineering}
+\APACinsertmetastar {%
+ontology_engineering}%
+\APACrefbtitle {{Ingeniería Ontológica}.} {{Ingeniería Ontológica}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Ontology_engineering}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Institute%
 }{%
 Institute%
@@ -261,6 +277,22 @@ Massey%
 \APACaddressPublisher{}{IEEE Computer Society, Los Alamitos, CA,USA}.
 \newblock
 \APAChowpublished {Hardcover}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Minimal Viable Product}}}{%
+\APACcitebtitle {{Minimal Viable Product}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+mvp}
+\APACinsertmetastar {%
+mvp}%
+\APACrefbtitle {{Minimal Viable Product}.} {{Minimal Viable Product}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Minimum_viable_product}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
