@@ -362,9 +362,16 @@ Según Mike Cohn \cite{user_stories_applied}, un relato de usuario describe una 
   \item \textbf{Comprobable:} Indica que debe existir una forma concreta y no general de que el relato de usuario se desarrolló de forma exitosa.
 \end{enumerate}
 
-Con el objetivo de que el relato de usuario pueda cumplir con las propiedades descritas anteriormente, Cohen recomienda utilizar el formato de tarjeta para su descripción. La siguiente imagen ilustra este concepto:
+Con el objetivo de que el relato de usuario pueda cumplir con las propiedades descritas anteriormente, Cohen recomienda utilizar el formato de tarjeta para su descripción. La ilustración \ref{fig:user_story_structure} ilustra esta propuesta.
 
-!!!!!! FIGURA !!!!!!
+\begin{figure}[ht]
+  \begin{center}
+  \includegraphics[width=1\textwidth]{./figures/chapter_02/12_yodiz_user_story_card.jpg}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Estructura de un relato de Usuario}
+  \label{fig:user_story_structure}
+  \end{center}
+\end{figure}
 
 \begin{enumerate}
   \item \textbf{Identificador:} Compuesto por un número o nomenclatura con el formato US-XX, donde XX corresponde al número del relato.
@@ -396,12 +403,21 @@ Fayyad \cite{knowledge_discovery} en 1996 define término Knowledge Discovery co
 Desde la creación de este término hasta hoy en día han surgido varias metodologías para llevar a cabo el proceso anteriormente descrito, el cual se denomina \textit{Knowledge Discovery Process (KDP)}. Se logran logran identificar un total de 4 \cite{knowledge_discovery}:
 
 \begin{enumerate}
-  \item \textbf{\textit{Traditional KDP Approach}}\mbox{}\\ Agrupa aquellas metodologías que ocupan un proceso similar al propuesto por Fayyad et al., los cuales poseen las etapas de entendimiento del negocio, entendimiento de los datos, procesamientos de los datos, modelamiento o minería de datos, evaluación de modelos y ,finalmente, paso a producción o visualización. La característica principal de estas metodologías es que consisten en etapas secuenciales y sin mucha flexibilidad para la aceptación de cambios. La figura XX permite la visualización de estas etapas en funcionamiento:
+  \item \textbf{\textit{Traditional KDP Approach}}\mbox{}\\ Agrupa aquellas metodologías que ocupan un proceso similar al propuesto por Fayyad et al., los cuales poseen las etapas de entendimiento del negocio, entendimiento de los datos, procesamientos de los datos, modelamiento o minería de datos, evaluación de modelos y ,finalmente, paso a producción o visualización. La característica principal de estas metodologías es que consisten en etapas secuenciales y sin mucha flexibilidad para la aceptación de cambios. La figura \ref{fig:traditional_kdd_structure} permite la visualización de la secuencia de etapas.
+
+  \begin{figure}[ht]
+    \begin{center}
+    \includegraphics[width=1\textwidth]{./figures/chapter_02/13_kdd_process_model.png}
+    \setcaptioncitation{PENDIENTE}
+    \caption{Etapas del proceso tradicional de KDD}
+    \label{fig:traditional_kdd_structure}
+    \end{center}
+  \end{figure}
+
   \item \textbf{\textit{Ontology-based KDP Approach}}\mbox{}\\ Se basa en la mezcla de ingeniería ontológica \dictionary{ontoligical} y un enfoque tradicional para KDP.
   \item \textbf{\textit{Web-based KDP Approach}} \mbox{} \\ Incorpora las mismas etapas que la primera categoría, pero reconoce de forma especial a la información proveniente de \textit{web logs} y ,por lo mismo, define etapas precisas para el tratamiento de la misma.
   \item \textbf{\textit{Agile-based KDP Approach}} \mbox{} \\  Esta categoría agrupa aquellos modelos que incorporan metodologías ágiles a un enfoque tradicional para KDP.
 \end{enumerate}
-
 
 \subsubsection{Modelos \label{sec:knowledge_discovery_models}}
 
@@ -435,13 +451,27 @@ Los mismos autores mencionados anteriormente, Mouhib y Asim, reconocen al mismo 
 Dentro de todos los modelos mencionados anteriormente se consideran relevantes para el presente trabajo CRISP-DM y ASD-DM, los cuales se describen las siguientes secciones.
 
 \subsubsection{CRISP-DM \label{crip_dm}}
-Este fue uno de los primeros modelos que intentó abarcar la problema impuesta por el área de \textit{Knowledge Discovery}. Para lograr lo anterior este modelo define 4 niveles de abstracción, en los cuales se realizan actividades, las cuales a su vez pertenecen a una de las 6 fases específicas por las cuales pasa todo proceso. A continuación se ilustran los 4 niveles creados en este modelo:
+Este fue uno de los primeros modelos que intentó abarcar la problema impuesta por el área de \textit{Knowledge Discovery}. Para lograr lo anterior este modelo define 4 niveles de abstracción, en los cuales se realizan actividades, las cuales a su vez pertenecen a una de las 6 fases específicas por las cuales pasa todo proceso. La ilustración \ref{fig:hierarchical_activity_levels} muestra los 4 niveles creados en este modelo.
 
-!!!! FIGURA !!!!
+\begin{figure}[ht]
+  \begin{center}
+  \includegraphics[width=1\textwidth]{./figures/chapter_02/14_crips_dm_hierarchical_process_model.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Niveles de Categorización de Actividades en CRISP-DM}
+  \label{fig:hierarchical_activity_levels}
+  \end{center}
+\end{figure}
 
-Dentro de cada nivel se deben definir actividades, las cuales a su vez se encuentran categorizadas y divididas al mismo tiempo en sub tareas para poder llevarse a cabo. La intención de estos niveles jerárquicos es poder tener una clara agrupación de qué tareas específicas se realizan en cada proceso utilizada para la generación de conocimiento. Por otro lado, no existe un listado de actividades o tareas específicas que se deban realizar en cada uno de los niveles, sólo se espera que las tareas en las fases que se ilustran a continuación contengan sus tareas o actividades categorizadas en los niveles previamente mencionados.
+Dentro de cada nivel se deben definir actividades, las cuales a su vez se encuentran categorizadas y divididas al mismo tiempo en sub tareas para poder llevarse a cabo. La intención de estos niveles jerárquicos es poder tener una clara agrupación de qué tareas específicas se realizan en cada proceso utilizada para la generación de conocimiento. Por otro lado, no existe un listado de actividades o tareas específicas que se deban realizar en cada uno de los niveles, sólo se espera que las tareas en las fases que se ilustran en el diagrama \ref{fig:crisp_dm_phases} contengan sus tareas o actividades categorizadas en los niveles previamente mencionados.
 
-!!!! FIGURA !!!!
+\begin{figure}[ht]
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{./figures/chapter_02/15_crips_dm_phases.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Fases en CRISP-DM}
+  \label{fig:crisp_dm_phases}
+  \end{center}
+\end{figure}
 
 Por la definición de estas fases se considera que este modelo posee un enfoque tradicional para KDP. Es posible establecer las siguientes definiciones para cada una de las fases ilustradas anteriormente \cite{knowledge_discovery}:
 
@@ -458,9 +488,16 @@ Por la definición de estas fases se considera que este modelo posee un enfoque 
 
 Este modelo se caracteriza por la incorporación de elementos presentes en metodologías ágiles para los proyectos de minería de datos. La idea basal sobre esta filosofía es que un enfoque adaptativo (flexible y/o incremental) posee un mejor rendimiento al momento de trabajar con requerimientos desconocidos o cambiantes, efecto que no es posible resolver de forma eficiente en los enfoques tradicionales de KDP.
 
-Para lograr su objetivo, este modelo \cite{knowledge_discovery} define 6 etapas organizadas en 3 fases que se muestran a continuación:
+Para lograr su objetivo, este modelo \cite{knowledge_discovery} define 6 etapas organizadas en 3 fases que se muestran en el diagrama \ref{fig:adm_dm_phases}.
 
-!!!!!! FIGURA !!!!!!!
+\begin{figure}[ht]
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{./figures/chapter_02/16_asm_dm_process_model_phases.png}
+  \setcaptioncitation{PENDIENTE}
+  \caption{Fases en ASM-DM}
+  \label{fig:adm_dm_phases}
+  \end{center}
+\end{figure}
 
 Las etapas presentadas anteriormente pueden definirse del siguiente modo:
 
