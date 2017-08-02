@@ -60,6 +60,23 @@ Cockburn, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Cockburnstyle Use Cases}}}{%
+\APACcitebtitle {{Cockburnstyle Use Cases}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+use_case_template}
+\APACinsertmetastar {%
+use_case_template}%
+\APACrefbtitle {{Cockburnstyle Use Cases}.} {{Cockburnstyle Use Cases}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://commons.wikimedia.org/wiki/File:Cockburnstyle_use_cases.svg}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {{Créditos UC}}}{%
 \APACcitebtitle {{Créditos UC}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
@@ -90,6 +107,23 @@ abc}%
 \newblock
 \begin{APACrefURL}
   \url{https://www.definicionabc.com/comunicacion/focus-group.php}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Extreme Programming Project}}}{%
+\APACcitebtitle {{Extreme Programming Project}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+extreme_programming_project}
+\APACinsertmetastar {%
+extreme_programming_project}%
+\APACrefbtitle {{Extreme Programming Project}.} {{Extreme Programming
+  Project}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://www.extremeprogramming.org/map/project.html}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -322,6 +356,29 @@ Mouhib~Alnoukari, A\BPBI E\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+One%
+}{%
+One%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+agile_state}
+\APACinsertmetastar {%
+agile_state}%
+\begin{APACrefauthors}%
+One, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {10th Annual State of Agile Report} {10th annual state of
+  agile report}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 P.%
 \ \BBA {} R.%
 }{%
@@ -418,6 +475,38 @@ Schwaber~K., S\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Scrum Diagram}}}{%
+\APACcitebtitle {{Scrum Diagram}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+scrum_diagram}
+\APACinsertmetastar {%
+scrum_diagram}%
+\APACrefbtitle {{Scrum Diagram}.} {{Scrum Diagram}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://jordanjob.me/2015/12/07/scrum-diagram/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{Scrum Framework}}}{%
+\APACcitebtitle {{Scrum Framework}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+scrum_framework}
+\APACinsertmetastar {%
+scrum_framework}%
+\APACrefbtitle {{Scrum Framework}.} {{Scrum Framework}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.neonrain.com/agile-scrum-web-development/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {{Sistema de Créditos Transferible Chile}}}{%
 \APACcitebtitle {{Sistema de Créditos Transferible Chile}}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
@@ -450,6 +539,23 @@ ingwebsite}%
 \newblock
 \begin{APACrefURL}
   \url{http://www.ing.uc.cl/alumnos/plan-de-estudios/descripcion/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{User Story Format}}}{%
+\APACcitebtitle {{User Story Format}}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+use_case_format}
+\APACinsertmetastar {%
+use_case_format}%
+\APACrefbtitle {{User Story Format}.} {{User Story Format}.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://yodiz.com/help/agile-user-stories-and-groomed-product-backlog/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

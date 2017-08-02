@@ -1,8 +1,8 @@
 \contentsline {chapter}{\tocchapter {}{}{AGRADECIMIENTOS}}{iv}{chapter*.2}
 \contentsline {chapter}{\tocchapter {}{}{\'INDICE DE FIGURAS}}{vii}{section*.3}
-\contentsline {chapter}{\tocchapter {}{}{\'INDICE DE TABLAS}}{viii}{section*.4}
-\contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{ix}{chapter*.6}
-\contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{x}{chapter*.8}
+\contentsline {chapter}{\tocchapter {}{}{\'INDICE DE TABLAS}}{ix}{section*.4}
+\contentsline {chapter}{\tocchapter {}{}{ABSTRACT}}{x}{chapter*.6}
+\contentsline {chapter}{\tocchapter {}{}{RESUMEN}}{xi}{chapter*.8}
 \contentsline {chapter}{\tocchapter {}{1}{Cap\IeC {\'\i }tulo 01}}{1}{chapter.1}
 \contentsline {section}{\tocsection {}{1.1}{Motivaci\IeC {\'o}n }}{1}{section.1.1}
 \contentsline {section}{\tocsection {}{1.2}{Contexto }}{2}{section.1.2}
@@ -34,11 +34,40 @@
 \contentsline {subsubsection}{\tocsubsubsection {}{2.3.1.2}{CRISP-DM }}{39}{subsubsection.2.3.1.2}
 \contentsline {subsubsection}{\tocsubsubsection {}{2.3.1.3}{Adaptative Software Development - Data Minning (ASD-DM) }}{41}{subsubsection.2.3.1.3}
 \contentsline {subsection}{\tocsubsection {}{2.3.2}{Metodolog\IeC {\'\i }as y modelos usadas en este trabajo }}{42}{subsection.2.3.2}
-\contentsline {chapter}{\tocchapter {}{3}{Cap\IeC {\'\i }tulo 03}}{44}{chapter.3}
-\contentsline {section}{\tocsection {}{3.1}{Figures and Tables }}{44}{section.3.1}
-\contentsline {section}{\tocsection {}{3.2}{Equations }}{45}{section.3.2}
-\contentsline {chapter}{\tocchapter {}{4}{CONCLUSIONS}}{46}{chapter.4}
-\contentsline {chapter}{\tocchapter {}{}{REFERENCES}}{47}{chapter*.11}
-\contentsline {chapter}{\tocappendix {}{}{ANEXO}}{49}{appendix*.12}
-\contentsline {section}{\tocsection {}{A}{Glosario}}{50}{section.Alph0.1}
-\contentsline {section}{\tocsection {}{B}{An Interesting Short Story}}{52}{section.Alph0.2}
+\contentsline {chapter}{\tocchapter {}{3}{Cap\IeC {\'\i }tulo 03 : Dise\IeC {\~n}o de la Soluci\IeC {\'o}n}}{44}{chapter.3}
+\contentsline {section}{\tocsection {}{3.1}{Introducci\IeC {\'o}n }}{44}{section.3.1}
+\contentsline {section}{\tocsection {}{3.2}{Objetivos }}{44}{section.3.2}
+\contentsline {section}{\tocsection {}{3.3}{Subsistemas y Metodolog\IeC {\'\i }a de Trabajo }}{44}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.3.1}{Subsistemas }}{45}{subsection.3.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.3.2}{Metodolog\IeC {\'\i }a de trabajo }}{45}{subsection.3.3.2}
+\contentsline {section}{\tocsection {}{3.4}{Requisitos }}{46}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Usuarios }}{46}{subsection.3.4.1}
+\contentsline {subsection}{\tocsubsection {}{3.4.2}{\IeC {\'E}picas }}{47}{subsection.3.4.2}
+\contentsline {subsection}{\tocsubsection {}{3.4.3}{Relatos de usuarios agrupados por \IeC {\'E}picas }}{48}{subsection.3.4.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.1}{Administrador de Majors}}{48}{subsubsection.3.4.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.2}{Administrador de Minors}}{51}{subsubsection.3.4.3.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.3}{Carga de alumnos}}{53}{subsubsection.3.4.3.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.4}{Carga de cursos}}{56}{subsubsection.3.4.3.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.5}{Carga de informaci\IeC {\'o}n hist\IeC {\'o}rica de un alumno}}{58}{subsubsection.3.4.3.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.6}{Validar informaci\IeC {\'o}n de los cursos}}{59}{subsubsection.3.4.3.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.7}{Validar informaci\IeC {\'o}n de alumno}}{60}{subsubsection.3.4.3.7}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.8}{Validar informaci\IeC {\'o}n hist\IeC {\'o}rica de un alumno}}{62}{subsubsection.3.4.3.8}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.9}{Laboratorio Predictivo}}{63}{subsubsection.3.4.3.9}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.10}{Laboratorio de Entrenamiento}}{65}{subsubsection.3.4.3.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.11}{Otro}}{67}{subsubsection.3.4.3.11}
+\contentsline {subsection}{\tocsubsection {}{3.4.4}{Requisitos No Funcionales }}{72}{subsection.3.4.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4.1}{Rendimiento }}{72}{subsubsection.3.4.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4.2}{Escalamiento }}{72}{subsubsection.3.4.4.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4.3}{Usabilidad }}{72}{subsubsection.3.4.4.3}
+\contentsline {section}{\tocsection {}{3.5}{Arquitectura }}{73}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{3.5.1}{Diagrama de Contexto }}{73}{subsection.3.5.1}
+\contentsline {subsection}{\tocsubsection {}{3.5.2}{Diagrama de Componentes }}{74}{subsection.3.5.2}
+\contentsline {subsection}{\tocsubsection {}{3.5.3}{Descripci\IeC {\'o}n de los Datos }}{75}{subsection.3.5.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.5.3.1}{Modelo de datos }}{75}{subsubsection.3.5.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.5.3.2}{Carga Inicial }}{76}{subsubsection.3.5.3.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.5.3.3}{Descripci\IeC {\'o}n de los Datos }}{77}{subsubsection.3.5.3.3}
+\contentsline {chapter}{\tocchapter {}{4}{Conclusiones}}{79}{chapter.4}
+\contentsline {chapter}{\tocchapter {}{}{REFERENCES}}{80}{chapter*.10}
+\contentsline {chapter}{\tocappendix {}{}{ANEXO}}{83}{appendix*.11}
+\contentsline {section}{\tocsection {}{A}{Glosario}}{84}{section.Alph0.1}
+\contentsline {section}{\tocsection {}{B}{An Interesting Short Story}}{86}{section.Alph0.2}
