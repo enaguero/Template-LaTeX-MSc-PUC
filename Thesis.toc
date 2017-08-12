@@ -37,28 +37,29 @@
 \contentsline {chapter}{\tocchapter {}{3}{Cap\IeC {\'\i }tulo 03 : Dise\IeC {\~n}o de la Soluci\IeC {\'o}n}}{44}{chapter.3}
 \contentsline {section}{\tocsection {}{3.1}{Introducci\IeC {\'o}n }}{44}{section.3.1}
 \contentsline {section}{\tocsection {}{3.2}{Objetivos }}{44}{section.3.2}
-\contentsline {section}{\tocsection {}{3.3}{Subsistemas y Metodolog\IeC {\'\i }a de Trabajo }}{44}{section.3.3}
+\contentsline {section}{\tocsection {}{3.3}{Grandes subsistemas y metodolog\IeC {\'\i }a de trabajo }}{45}{section.3.3}
 \contentsline {subsection}{\tocsubsection {}{3.3.1}{Subsistemas }}{45}{subsection.3.3.1}
 \contentsline {subsection}{\tocsubsection {}{3.3.2}{Metodolog\IeC {\'\i }a de trabajo }}{45}{subsection.3.3.2}
 \contentsline {section}{\tocsection {}{3.4}{Requisitos }}{46}{section.3.4}
-\contentsline {subsection}{\tocsubsection {}{3.4.1}{Usuarios }}{46}{subsection.3.4.1}
-\contentsline {subsection}{\tocsubsection {}{3.4.2}{\IeC {\'E}picas }}{47}{subsection.3.4.2}
-\contentsline {subsection}{\tocsubsection {}{3.4.3}{Relatos de usuarios agrupados por \IeC {\'E}picas }}{48}{subsection.3.4.3}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.1}{Administrador de Majors}}{48}{subsubsection.3.4.3.1}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.2}{Administrador de Minors}}{51}{subsubsection.3.4.3.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.3}{Carga de alumnos}}{53}{subsubsection.3.4.3.3}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.4}{Carga de cursos}}{56}{subsubsection.3.4.3.4}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.5}{Carga de informaci\IeC {\'o}n hist\IeC {\'o}rica de un alumno}}{58}{subsubsection.3.4.3.5}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.6}{Validar informaci\IeC {\'o}n de los cursos}}{59}{subsubsection.3.4.3.6}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.7}{Validar informaci\IeC {\'o}n de alumno}}{60}{subsubsection.3.4.3.7}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.8}{Validar informaci\IeC {\'o}n hist\IeC {\'o}rica de un alumno}}{62}{subsubsection.3.4.3.8}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.9}{Laboratorio Predictivo}}{63}{subsubsection.3.4.3.9}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.10}{Laboratorio de Entrenamiento}}{65}{subsubsection.3.4.3.10}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.11}{Otro}}{67}{subsubsection.3.4.3.11}
-\contentsline {subsection}{\tocsubsection {}{3.4.4}{Requisitos No Funcionales }}{72}{subsection.3.4.4}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4.1}{Rendimiento }}{72}{subsubsection.3.4.4.1}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4.2}{Escalamiento }}{72}{subsubsection.3.4.4.2}
-\contentsline {subsubsection}{\tocsubsubsection {}{3.4.4.3}{Usabilidad }}{72}{subsubsection.3.4.4.3}
+\contentsline {subsection}{\tocsubsection {}{3.4.1}{Funcionales }}{46}{subsection.3.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.1}{Tipos (Roles) de Usuarios }}{46}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.1.2}{\IeC {\'E}picas }}{47}{subsubsection.3.4.1.2}
+\contentsline {subsection}{\tocsubsection {}{3.4.2}{Relatos de usuarios agrupados por \IeC {\'E}picas }}{48}{subsection.3.4.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.1}{Administrador de Majors}}{48}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.2}{Administrador de Minors}}{51}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.3}{Carga de alumnos}}{53}{subsubsection.3.4.2.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.4}{Carga de cursos}}{56}{subsubsection.3.4.2.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.5}{Carga de informaci\IeC {\'o}n hist\IeC {\'o}rica de un alumno}}{58}{subsubsection.3.4.2.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.6}{Validar informaci\IeC {\'o}n de los cursos}}{59}{subsubsection.3.4.2.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.7}{Validar informaci\IeC {\'o}n de alumno}}{60}{subsubsection.3.4.2.7}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.8}{Validar informaci\IeC {\'o}n hist\IeC {\'o}rica de un alumno}}{62}{subsubsection.3.4.2.8}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.9}{Laboratorio Predictivo}}{63}{subsubsection.3.4.2.9}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.10}{Laboratorio de Entrenamiento}}{65}{subsubsection.3.4.2.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.2.11}{Otro}}{67}{subsubsection.3.4.2.11}
+\contentsline {subsection}{\tocsubsection {}{3.4.3}{Requisitos No Funcionales }}{72}{subsection.3.4.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.1}{Rendimiento }}{72}{subsubsection.3.4.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.2}{Escalamiento }}{72}{subsubsection.3.4.3.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.4.3.3}{Usabilidad }}{72}{subsubsection.3.4.3.3}
 \contentsline {section}{\tocsection {}{3.5}{Arquitectura }}{73}{section.3.5}
 \contentsline {subsection}{\tocsubsection {}{3.5.1}{Diagrama de Contexto }}{73}{subsection.3.5.1}
 \contentsline {subsection}{\tocsubsection {}{3.5.2}{Diagrama de Componentes }}{74}{subsection.3.5.2}

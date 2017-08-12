@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 AUG 2017 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 AUG 2017 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -796,12 +796,6 @@ LaTeX Warning: Label `sec:problem_categories' multiply defined.
 LaTeX Warning: Label `sec:requirements' multiply defined.
 
 
-LaTeX Warning: Label `sec:user_description' multiply defined.
-
-
-LaTeX Warning: Label `sec:user_description' multiply defined.
-
-
 LaTeX Warning: Label `fig:components_diagram_picture' multiply defined.
 
 
@@ -905,7 +899,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<./figures/LogoUC.pdf, id=180, 122.77026pt x 161.83778pt>
+<./figures/LogoUC.pdf, id=176, 122.77026pt x 161.83778pt>
 File: ./figures/LogoUC.pdf Graphic file (type pdf)
 
 <use ./figures/LogoUC.pdf>
@@ -1082,7 +1076,7 @@ Overfull \hbox (47.26036pt too wide) in paragraph at lines 134--134
 os-
  []
 
-[6] [7] <./figures/model_t.png, id=412, 667.49374pt x 831.105pt>
+[6] [7] <./figures/model_t.png, id=407, 667.49374pt x 831.105pt>
 File: ./figures/model_t.png Graphic file (type png)
 
 <use ./figures/model_t.png>
@@ -1095,7 +1089,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) detected at line 185
  []
 
-<./figures/malla_curricular.png, id=429, 2567.5925pt x 2297.58376pt>
+<./figures/malla_curricular.png, id=424, 2567.5925pt x 2297.58376pt>
 File: ./figures/malla_curricular.png Graphic file (type png)
 
 <use ./figures/malla_curricular.png>
@@ -1128,7 +1122,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<./figures/chapter_02/01_cascade_phases.png, id=471, 504.88625pt x 408.52625pt>
+<./figures/chapter_02/01_cascade_phases.png, id=466, 504.88625pt x 408.52625pt>
 File: ./figures/chapter_02/01_cascade_phases.png Graphic file (type png)
 <use ./figures/chapter_02/01_cascade_phases.png>
 Package pdftex.def Info: ./figures/chapter_02/01_cascade_phases.png used on inp
@@ -1138,7 +1132,7 @@ ut line 25.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./figures/chapter_02/01_cascade_phases.png>]
-<./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png, id=481, 1370.11
+<./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png, id=476, 1370.11
 874pt x 524.96124pt>
 File: ./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png Graphic fil
 e (type png)
@@ -1151,7 +1145,7 @@ cle.png used on input line 54.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./figures/chapter_02/02_example_of_incremental_lyfe_cicle.png>]
-<./figures/chapter_02/03_succession_of_increments.png, id=502, 1192.455pt x 462
+<./figures/chapter_02/03_succession_of_increments.png, id=497, 1192.455pt x 462
 .72874pt>
 File: ./figures/chapter_02/03_succession_of_increments.png Graphic file (type p
 ng)
@@ -1182,7 +1176,7 @@ Overfull \hbox (3.8996pt too wide) in paragraph at lines 126--127
  []
 
 
-<./figures/chapter_02/04_agile_development_life_cycle.png, id=550, 1165.35374pt
+<./figures/chapter_02/04_agile_development_life_cycle.png, id=545, 1165.35374pt
  x 625.33624pt>
 File: ./figures/chapter_02/04_agile_development_life_cycle.png Graphic file (ty
 pe png)
@@ -1194,7 +1188,7 @@ ng used on input line 133.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18 <./figures/chapter_02/04_agile_development_life_cycle.png>]
-<./figures/chapter_02/05_agile_methodologies_used.png, id=562, 1029.8475pt x 52
+<./figures/chapter_02/05_agile_methodologies_used.png, id=557, 1029.8475pt x 52
 9.98pt>
 File: ./figures/chapter_02/05_agile_methodologies_used.png Graphic file (type p
 ng)
@@ -1206,7 +1200,7 @@ sed on input line 148.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./figures/chapter_02/05_agile_methodologies_used.png>]
-<./figures/chapter_02/06_scrum.png, id=579, 1027.84pt x 770.88pt>
+<./figures/chapter_02/06_scrum.png, id=573, 1027.84pt x 770.88pt>
 File: ./figures/chapter_02/06_scrum.png Graphic file (type png)
 
 <use ./figures/chapter_02/06_scrum.png>
@@ -1214,7 +1208,7 @@ Package pdftex.def Info: ./figures/chapter_02/06_scrum.png used on input line 1
 63.
 (pdftex.def)             Requested size: 364.95187pt x 273.71725pt.
 
-<./figures/chapter_02/07_scrum_framework.jpg, id=584, 5018.75pt x 2919.90875pt>
+<./figures/chapter_02/07_scrum_framework.jpg, id=578, 5018.75pt x 2919.90875pt>
 File: ./figures/chapter_02/07_scrum_framework.jpg Graphic file (type jpg)
 <use ./figures/chapter_02/07_scrum_framework.jpg>
 Package pdftex.def Info: ./figures/chapter_02/07_scrum_framework.jpg used on in
@@ -1257,7 +1251,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-<./figures/chapter_02/08_extreme_programming_project.png, id=650, 660.4675pt x 
+<./figures/chapter_02/08_extreme_programming_project.png, id=645, 660.4675pt x 
 207.77625pt>
 File: ./figures/chapter_02/08_extreme_programming_project.png Graphic file (typ
 e png)
@@ -1275,7 +1269,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-<./figures/chapter_02/09_cockburnstyle_use_cases.png, id=704, 803.0pt x 401.5pt
+<./figures/chapter_02/09_cockburnstyle_use_cases.png, id=699, 803.0pt x 401.5pt
 >
 File: ./figures/chapter_02/09_cockburnstyle_use_cases.png Graphic file (type pn
 g)
@@ -1290,7 +1284,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./figures/chapter_02/09_cockburnstyle_use_cases.png>]
-<./figures/chapter_02/10_use_case_template_one_column_version.png, id=738, 1153
+<./figures/chapter_02/10_use_case_template_one_column_version.png, id=733, 1153
 .30875pt x 1024.82875pt>
 File: ./figures/chapter_02/10_use_case_template_one_column_version.png Graphic 
 file (type png)
@@ -1303,7 +1297,7 @@ ersion.png used on input line 332.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <./figures/chapter_02/10_use_case_template_one_column_version.png>]
-<./figures/chapter_02/11_use_case_view.png, id=754, 539.01375pt x 429.605pt>
+<./figures/chapter_02/11_use_case_view.png, id=749, 539.01375pt x 429.605pt>
 File: ./figures/chapter_02/11_use_case_view.png Graphic file (type png)
 
 <use ./figures/chapter_02/11_use_case_view.png>
@@ -1314,7 +1308,7 @@ t line 343.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./figures/chapter_02/11_use_case_view.png>]
-<./figures/chapter_02/12_yodiz_user_story_card.jpg, id=771, 699.61375pt x 361.3
+<./figures/chapter_02/12_yodiz_user_story_card.jpg, id=766, 699.61375pt x 361.3
 5pt>
 File: ./figures/chapter_02/12_yodiz_user_story_card.jpg Graphic file (type jpg)
 
@@ -1338,7 +1332,7 @@ mino Knowl-edge Dis-cov-ery como
  []
 
 
-<./figures/chapter_02/13_kdd_process_model.png, id=817, 1442.38875pt x 546.04pt
+<./figures/chapter_02/13_kdd_process_model.png, id=812, 1442.38875pt x 546.04pt
 >
 File: ./figures/chapter_02/13_kdd_process_model.png Graphic file (type png)
  <use ./figures/chapter_02/13_kdd_process_model.png>
@@ -1353,7 +1347,7 @@ Underfull \vbox (badness 10000) detected at line 449
  []
 
 [37 <./figures/chapter_02/13_kdd_process_model.png>] [38]
-<./figures/chapter_02/14_crips_dm_hierarchical_process_model.png, id=847, 1148.
+<./figures/chapter_02/14_crips_dm_hierarchical_process_model.png, id=842, 1148.
 29pt x 603.25375pt>
 File: ./figures/chapter_02/14_crips_dm_hierarchical_process_model.png Graphic f
 ile (type png)
@@ -1363,7 +1357,7 @@ Package pdftex.def Info: ./figures/chapter_02/14_crips_dm_hierarchical_process_
 model.png used on input line 458.
 (pdftex.def)             Requested size: 429.35207pt x 225.55684pt.
 
-<./figures/chapter_02/15_crips_dm_phases.png, id=853, 808.01875pt x 763.85374pt
+<./figures/chapter_02/15_crips_dm_phases.png, id=848, 808.01875pt x 763.85374pt
 >
 File: ./figures/chapter_02/15_crips_dm_phases.png Graphic file (type png)
  <use ./figures/chapter_02/15_crips_dm_phases.png>
@@ -1389,7 +1383,7 @@ Overfull \hbox (4.2875pt too wide) in paragraph at lines 489--490
  []
 
 
-<./figures/chapter_02/16_asm_dm_process_model_phases.png, id=877, 962.59625pt x
+<./figures/chapter_02/16_asm_dm_process_model_phases.png, id=872, 962.59625pt x
  914.41624pt>
 File: ./figures/chapter_02/16_asm_dm_process_model_phases.png Graphic file (typ
 e png)
@@ -1411,24 +1405,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--203
  []
 
 (./chapters/chapter3.tex
+Overfull \hbox (2.40382pt too wide) in paragraph at lines 2--3
+\T1/ptm/m/n/12 basada en el uso de téc-ni-cas de In-ge-niería de Soft-ware y De
+-s-cubrim-iento del Conocimiento.
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44
 
 
 ]
-Overfull \hbox (17.27155pt too wide) in paragraph at lines 25--26
-[]\T1/ptm/m/n/12 Los ob-je-tivos plantea-dos son re-spon-di-dos me-di-ante 3 gr
-andes sub-sis-temas: una plataforma
- []
-
-<./figures/chapter_03/01_objetivos.png, id=911, 722.7pt x 542.025pt>
+<./figures/chapter_03/01_objetivos.png, id=908, 620.3175pt x 519.9425pt>
 File: ./figures/chapter_03/01_objetivos.png Graphic file (type png)
 
 <use ./figures/chapter_03/01_objetivos.png>
 Package pdftex.def Info: ./figures/chapter_03/01_objetivos.png used on input li
 ne 29.
-(pdftex.def)             Requested size: 343.48296pt x 257.61342pt.
+(pdftex.def)             Requested size: 343.48296pt x 287.89714pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1559,7 +1554,7 @@ su-alizar la in-for-ma-ción histórica
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71]
-<./figures/chapter_03/02_diagrama_de_contexto.png, id=1349, 940.51375pt x 941.5
+<./figures/chapter_03/02_diagrama_de_contexto.png, id=1346, 940.51375pt x 941.5
 175pt>
 File: ./figures/chapter_03/02_diagrama_de_contexto.png Graphic file (type png)
  <use ./figures/chapter_03/02_diagrama_de_contexto.png>
@@ -1570,7 +1565,7 @@ on input line 662.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [72]
-<./figures/chapter_03/03_diagrama_de_componentes.png, id=1363, 946.53625pt x 12
+<./figures/chapter_03/03_diagrama_de_componentes.png, id=1360, 946.53625pt x 12
 22.5675pt>
 File: ./figures/chapter_03/03_diagrama_de_componentes.png Graphic file (type pn
 g)
@@ -1585,7 +1580,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74 <./figures/chapter_03/03_diagrama_de_componentes.png>]
-<./figures/chapter_03/04_modelo_de_datos.png, id=1375, 2377.88374pt x 1935.23pt
+<./figures/chapter_03/04_modelo_de_datos.png, id=1372, 2377.88374pt x 1935.23pt
 >
 File: ./figures/chapter_03/04_modelo_de_datos.png Graphic file (type png)
  <use ./figures/chapter_03/04_modelo_de_datos.png>
@@ -1662,17 +1657,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B8B9FA22A7B3051A2F6DFF66A0ABB42D;3431.
+(rerunfilecheck)             Checksum: 03849500AE524493B952C7FF890D8873;3371.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11021 strings out of 492995
- 156918 string characters out of 6132704
- 272204 words of memory out of 5000000
- 13472 multiletter control sequences out of 15000+600000
+ 11024 strings out of 492995
+ 156989 string characters out of 6132704
+ 272374 words of memory out of 5000000
+ 13474 multiletter control sequences out of 15000+600000
  36884 words of font info for 65 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  43i,12n,55p,1401b,759s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1684,10 +1679,10 @@ ive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017
 t/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on Thesis.pdf (97 pages, 4910477 bytes).
+Output written on Thesis.pdf (97 pages, 4903766 bytes).
 PDF statistics:
- 1668 PDF objects out of 1728 (max. 8388607)
- 1468 compressed objects within 15 object streams
- 698 named destinations out of 1000 (max. 500000)
- 480 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1665 PDF objects out of 1728 (max. 8388607)
+ 1465 compressed objects within 15 object streams
+ 699 named destinations out of 1000 (max. 500000)
+ 472 words of extra memory for PDF output out of 10000 (max. 10000000)
 

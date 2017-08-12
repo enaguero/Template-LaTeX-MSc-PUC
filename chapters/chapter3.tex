@@ -1,11 +1,9 @@
 \section{Introducción \label{sec:cap_three_introduction}}
-El presente capítulo se encuentra orientado a la explicación de los objetivos detectados,de cómo las metodologías escogidas en el área de Ingeniería de Software y Descubrimiento del Conocimiento son utilizadas en el desarrollo de la solución y finalmente una descripción de los requerimientos levantados así como la descripción de los datos a utilizar para la realización de las estimaciones de demanda.
+El presente capítulo presenta los objetivos buscados y el planteamiento de una solución basada en el uso de técnicas de Ingeniería de Software y Descubrimiento del Conocimiento.  Primeramente se presentan los requisitos funcionales expresados como relatos de usuario, luego requisitos no funcionales y finalmente la arquitectura. El capítulo termina con una descripción de los datos a utilizar.
 
 \section{Objetivos \label{sec:goals}}
 
-Frente a la necesidad presentada de poder gestionar de forma adecuada la planificación de cursos y profesores dentro de la Escuela de Ingeniería en el contexto del nuevo curriculum, se identifica como objetivo principal calcular la cantidad de alumnos para un curso específico en el siguiente periodo académico, es decir, calcular la demanda para un curso en el siguiente semestre académico. Este objetivo plantea una serie de objetivos secundarios necesarios para el cumplimiento de éste. A continuación se enuncian estos objetivos secundarios para un mejor entendimiento del contexto en el cual se desenvuelve la problemática:
-
-\section{Subsistemas y Metodología de Trabajo \label{sec:work_environment}}
+Frente a la necesidad presentada de poder gestionar de forma adecuada la planificación de cursos y profesores dentro de la Escuela de Ingeniería en el contexto del nuevo curriculum, se identifica como objetivo principal calcular la cantidad de alumnos para un curso específico en el siguiente periodo académico, es decir, calcular la demanda para un curso en el siguiente semestre académico. Este objetivo plantea una serie de objetivos secundarios. A continuación se enuncian estos objetivos secundarios para un mejor entendimiento del contexto en el cual se desenvuelve la problemática:
 
 \begin{enumerate}
 	\item \textbf{Objetivo Principal:} Predecir en forma aproximada la demanda de alumnos para un curso específico en el siguiente semestre.
@@ -21,8 +19,10 @@ Frente a la necesidad presentada de poder gestionar de forma adecuada la planifi
 		\end{enumerate}
 \end{enumerate}
 
-\subsection{Subsistemas \label{sec:sub_systems}}
-Los objetivos planteados son respondidos mediante 3 grandes subsistemas:  una plataforma web que permite el almacenamiento de la información de histórica de los alumnos,  un conjunto de módulos para la creación de modelos predictivos y ua módulo de reportería que permite comparar los resultados para un curso en particular. La figura \ref{fig:subsystems} muestra los objetivos asociados a cada uno de estos subsistemas.
+\section{Grandes subsistemas  y metodología de trabajo \label{sec:sub_systems}}
+
+\subsection{Subsistemas \label{sec:sub_systems_description}}
+La solución responde a los objetivos planteados mediante una arquitectura de 3 grandes subsistemas.  Cada uno de ellos está asociado al cumplimiento de un conjunto determinado de objetivos.  Así por ejemplo, la plataforma web permite el almacenamiento de la información histórica de los alumnos,  el subsistema de modelos predictivos ataca la información de avance curricular y la creación de estrategias y el subsistema de reportería permite comparar los resultados para un curso en particular. El cuadro \ref{fig:subsystems} muestra los objetivos asociados a cada uno de estos subsistemas.
 
 \begin{figure}[ht]
 	\begin{center}
@@ -40,9 +40,9 @@ La primera etapa incluye, por un lado, un levantamiento de los requerimientos fu
 Luego de la etapa inicial descrita anteriormente, se da inicio al proceso de desarrollo de software propiamente tal en forma iterativa e incremental, es decir, la creación sucesiva de pequeños entregables acumulativos usando un proceso iterativo de conversaciones con los \textit{stakeholders}. En paralelo con ello se lleva a cabo el proceso cíclico de modelación y evaluación de los algoritmos predictivos en \textit{ASDM-DM}.
 
 \section{Requisitos \label{sec:requirements}}
-\subsection{Usuarios \label{sec:user_description}}
+\subsection{Funcionales \label{sec:functional_requirements}}
 
-La plataforma posee los siguientes tipos de usuarios o roles:
+\subsubsection{Tipos (Roles) de Usuarios \label{sec:user_roles}}
 
 \begin{enumerate}
 	\item \textbf{Administrador:} Manejo de usuarios, modelos predictivos, ejecuciones de entrenamiento y predicción, informes.
@@ -50,7 +50,7 @@ La plataforma posee los siguientes tipos de usuarios o roles:
 	\item \textbf{Analista:} Puede correr nuevas predicciones y ver los resultados relativos a esas predicciones. Al mismo tiempo, puede ver la información acerca de los majors, minors, estudiantes y la historia de los mismos.
 \end{enumerate}
 
-\subsection{Épicas \label{sec:user_description}}
+\subsubsection{Épicas \label{sec:epics}}
 
 Las épicas corresponden a grupos de relatos de usuario que en forma conjunta permiten constituir una funcionalidad mayor. La siguiente lista muestra las épicas identificadas en este proyecto:
 

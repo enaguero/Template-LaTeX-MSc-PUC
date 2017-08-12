@@ -25,20 +25,19 @@
 \BOOKMARK [0][-]{chapter.3}{3. Cap\355tulo 03 : Dise\361o de la Soluci\363n}{}% 25
 \BOOKMARK [1][-]{section.3.1}{3.1. Introducci\363n }{chapter.3}% 26
 \BOOKMARK [1][-]{section.3.2}{3.2. Objetivos }{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.3}{3.3. Subsistemas y Metodolog\355a de Trabajo }{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.3}{3.3. Grandes subsistemas y metodolog\355a de trabajo }{chapter.3}% 28
 \BOOKMARK [2][-]{subsection.3.3.1}{3.3.1. Subsistemas }{section.3.3}% 29
 \BOOKMARK [2][-]{subsection.3.3.2}{3.3.2. Metodolog\355a de trabajo }{section.3.3}% 30
 \BOOKMARK [1][-]{section.3.4}{3.4. Requisitos }{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1. Usuarios }{section.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2. \311picas }{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3. Relatos de usuarios agrupados por \311picas }{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.4}{3.4.4. Requisitos No Funcionales }{section.3.4}% 35
-\BOOKMARK [1][-]{section.3.5}{3.5. Arquitectura }{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1. Diagrama de Contexto }{section.3.5}% 37
-\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2. Diagrama de Componentes }{section.3.5}% 38
-\BOOKMARK [2][-]{subsection.3.5.3}{3.5.3. Descripci\363n de los Datos }{section.3.5}% 39
-\BOOKMARK [0][-]{chapter.4}{4. Conclusiones}{}% 40
-\BOOKMARK [0][-]{chapter*.10}{REFERENCES}{}% 41
-\BOOKMARK [0][-]{appendix*.11}{ANEXO}{}% 42
-\BOOKMARK [1][-]{section.Alph0.1}{A. Glosario}{appendix*.11}% 43
-\BOOKMARK [1][-]{section.Alph0.2}{B. An Interesting Short Story}{appendix*.11}% 44
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1. Funcionales }{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2. Relatos de usuarios agrupados por \311picas }{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3. Requisitos No Funcionales }{section.3.4}% 34
+\BOOKMARK [1][-]{section.3.5}{3.5. Arquitectura }{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1. Diagrama de Contexto }{section.3.5}% 36
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2. Diagrama de Componentes }{section.3.5}% 37
+\BOOKMARK [2][-]{subsection.3.5.3}{3.5.3. Descripci\363n de los Datos }{section.3.5}% 38
+\BOOKMARK [0][-]{chapter.4}{4. Conclusiones}{}% 39
+\BOOKMARK [0][-]{chapter*.10}{REFERENCES}{}% 40
+\BOOKMARK [0][-]{appendix*.11}{ANEXO}{}% 41
+\BOOKMARK [1][-]{section.Alph0.1}{A. Glosario}{appendix*.11}% 42
+\BOOKMARK [1][-]{section.Alph0.2}{B. An Interesting Short Story}{appendix*.11}% 43
